@@ -10,13 +10,19 @@ This repository contains a hands-on project demonstrating the setup, configurati
 - Simulated **real-world attacks** and demonstrated incident response.
 - Documented procedures and detection rules in the **SOC Playbook** and **Incident Report**.
 
-## Setup Instructions
-1. Follow the **Home Lab Setup** guide to deploy the necessary virtual machines.
-2. Install and configure **Splunk**, **Security Onion**, and other tools as documented.
-3. Use the **SIEM alerts** for threat detection.
-4. Simulate attacks and investigate using the provided queries and dashboards.
+## Project Phases
+### Phase 1: Home Lab Setup & Configuration
+- **VM Setup**: [Instructions](home-lab-setup/VM-configuration.md)
+- **Security Tools Setup**: [Guide](home-lab-setup/security-tools-setup.md)
 
-## Project Resources
-- [Incident Report & SOC Playbook](#)
-- [Splunk Queries](#)
-- [Security Onion Setup](#)
+### Phase 2: SIEM Alerts & Dashboards
+- **Brute Force Detection**: [Alert Configuration](siem-alerts/brute-force-alerts.md)
+- **Privilege Escalation Detection**: [Alert Configuration](siem-alerts/privilege-escalation-alerts.md)
+
+### Phase 3: Incident Response
+- **Incident Report**: [Report](incident-response/incident-report.md)
+- **SOC Playbook**: [Playbook](incident-response/SOC-playbook.md)
+
+## Resources
+- [Setup Guide](docs/setup-guide.md)
+- [Project Summary](docs/project-summary.md)
