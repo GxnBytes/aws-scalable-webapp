@@ -12,17 +12,17 @@ This repository contains a hands-on project demonstrating the setup, configurati
 
 ## Project Phases
 ### Phase 1: Home Lab Setup & Configuration
-- **VM Setup**: [Instructions](home-lab-setup/VM-configuration.md)
-- **Security Tools Setup**: [Guide](home-lab-setup/security-tools-setup.md)
+- **VM Setup**: [Instructions](01-home-lab-setup/VM-configuration.md)
+- **Security Tools Setup**: [Guide](01-home-lab-setup/security-tools-setup.md)
 
 ### Phase 2: SIEM Alerts & Dashboards
-- **Brute Force Detection**: [Alert Configuration](siem-alerts/brute-force-alerts.md)
-- **Privilege Escalation Detection**: [Alert Configuration](siem-alerts/privilege-escalation-alerts.md)
+- **Brute Force Detection**: [Alert Configuration](02-siem-alerts/brute-force-alerts.md)
+- **Privilege Escalation Detection**: [Alert Configuration](02-siem-alerts/privilege-escalation-alerts.md)
 
 ### Phase 3: Incident Response
-- **Incident Report**: [Report](incident-response/incident-report.md)
-- **SOC Playbook**: [Playbook](incident-response/SOC-playbook.md)
+- **Incident Report**: [Report](03-incident-response/incident-report.md)
+- **SOC Playbook**: [Playbook](03-incident-response/SOC-playbook.md)
 
 ## Resources
-- [Setup Guide](docs/setup-guide.md)
-- [Project Summary](docs/project-summary.md)
+- [Setup Guide](04-docs/setup-guide.md)
+- [Project Summary](04-docs/project-summary.md)
