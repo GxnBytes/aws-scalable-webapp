@@ -1,6 +1,7 @@
 # Real-World Security Monitoring & Threat Detection with Splunk & Security Onion
 
 ## Project Overview
+I'm building a security monitoring lab using Splunk & Security Onion to detect cyber threats.
 This repository contains a hands-on project demonstrating the setup, configuration, and usage of **Splunk** and **Security Onion** for real-time security monitoring and threat detection. It showcases key concepts in **SIEM**, **IDS**, **threat hunting**, and **incident response**.
 
 ## Key Features
