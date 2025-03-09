@@ -17,3 +17,16 @@ This guide provides step-by-step instructions to install and configure essential
    ```yaml
    output.logstash:
      hosts: ["<SPLUNK_IP>:5044"]
+
+## Install Security Onion
+
+Security Onion is a comprehensive security monitoring platform that includes Suricata IDS, Zeek, and Kibana.
+
+### Steps to Install Security Onion:
+1. Download the latest Security Onion ISO from [Security Onion Solutions](https://securityonion.net/).
+2. Create a new virtual machine or use a dedicated server.
+3. Boot from the ISO and follow the installation wizard.
+4. Configure Security Onion for network monitoring.
+5. Ensure all services (Zeek, Suricata, Elasticsearch, and Kibana) are running by using:
+   ```sh
+   sudo so-status
