@@ -30,3 +30,13 @@ Security Onion is a comprehensive security monitoring platform that includes Sur
 5. Ensure all services (Zeek, Suricata, Elasticsearch, and Kibana) are running by using:
    ```sh
    sudo so-status
+
+## Verify Log Collection & Connectivity
+
+### Ensure Logs Are Being Collected in Splunk
+To confirm that Splunk is receiving logs from your configured sources:
+
+1. Open Splunk and navigate to **Search & Reporting**.
+2. Run the following search query to check if Windows Event Logs, Sysmon logs, and Firewall logs are being ingested:
+   ```splunk
+   index=winlogbeat OR index=sysmon OR index=firewall
