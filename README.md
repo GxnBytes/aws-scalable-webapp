@@ -1,4 +1,4 @@
-# Real-World Security Monitoring & Threat Detection with Splunk & Security Onion
+# Real-World Security Monitoring & Threat Detection
 
 ## Project Overview
 I'm building a security monitoring lab using Splunk & Security Onion to detect cyber threats.
