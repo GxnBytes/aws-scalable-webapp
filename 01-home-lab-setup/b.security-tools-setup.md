@@ -56,10 +56,10 @@ Zeek and Suricata are powerful security monitoring tools that provide in-depth n
      sudo systemctl status suricata
      ```
 
-6. **Monitor and Analyze Logs:**
+6. **Monitor and Analyse Logs:**
    - Zeek logs are typically located in `/opt/zeek/logs/`.
    - Suricata logs are typically located in `/var/log/suricata/`.
-   - Use tools like Kibana or Splunk to visualize and analyze the logs for deeper insights into network activities.
+   - Use tools like Kibana or Splunk to visualise and analyse the logs for deeper insights into network activities.
 
 ## Verify Log Collection & Connectivity
 
