@@ -18,18 +18,48 @@ This guide provides step-by-step instructions to install and configure essential
    output.logstash:
      hosts: ["<SPLUNK_IP>:5044"]
 
-## Install Security Onion
+## Install Zeek and Suricata
 
-Security Onion is a comprehensive security monitoring platform that includes Suricata IDS, Zeek, and Kibana.
+Zeek and Suricata are powerful security monitoring tools that provide in-depth network analysis and intrusion detection capabilities.
 
-### Steps to Install Security Onion:
-1. Download the latest Security Onion ISO from [Security Onion Solutions](https://securityonion.net/).
-2. Create a new virtual machine or use a dedicated server.
-3. Boot from the ISO and follow the installation wizard.
-4. Configure Security Onion for network monitoring.
-5. Ensure all services (Zeek, Suricata, Elasticsearch, and Kibana) are running by using:
-   ```sh
-   sudo so-status
+### Steps to Install Zeek and Suricata:
+
+1. **Install Suricata:**
+   - Download and install Suricata from the official website: [Suricata](https://suricata.io/download/).
+   - Follow the installation instructions for your operating system.
+
+2. **Install Zeek:**
+   - Download and install Zeek from the official website: [Zeek](https://zeek.org/get-zeek/).
+   - Follow the installation instructions for your operating system.
+
+3. **Configure Zeek and Suricata for Network Monitoring:**
+   - Ensure that both tools are configured correctly to monitor your network traffic.
+   - Edit the configuration files for Zeek (`/opt/zeek/etc/zeekctl.cfg`) and Suricata (`/etc/suricata/suricata.yaml`) to adjust for your network setup.
+
+4. **Start Zeek and Suricata Services:**
+   - Start Zeek by running:
+     ```sh
+     sudo zeekctl start
+     ```
+   - Start Suricata by running:
+     ```sh
+     sudo systemctl start suricata
+     ```
+
+5. **Verify that Zeek and Suricata are Running:**
+   - Check the status of Zeek:
+     ```sh
+     sudo zeekctl status
+     ```
+   - Check the status of Suricata:
+     ```sh
+     sudo systemctl status suricata
+     ```
+
+6. **Monitor and Analyze Logs:**
+   - Zeek logs are typically located in `/opt/zeek/logs/`.
+   - Suricata logs are typically located in `/var/log/suricata/`.
+   - Use tools like Kibana or Splunk to visualize and analyze the logs for deeper insights into network activities.
 
 ## Verify Log Collection & Connectivity
 
