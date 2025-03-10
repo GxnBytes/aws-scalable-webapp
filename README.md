@@ -2,10 +2,10 @@
 
 ## Project Overview
 I'm building a security monitoring lab using Splunk & Security Onion to detect cyber threats.
-This repository contains a hands-on project demonstrating the setup, configuration, and usage of **Splunk** and **Security Onion** for real-time security monitoring and threat detection. It showcases key concepts in **SIEM**, **IDS**, **threat hunting**, and **incident response**.
+This repository contains a hands-on project demonstrating the setup, configuration, and usage of **Splunk** and **Zeek and Suricata IDS** for real-time security monitoring and threat detection. It showcases key concepts in **SIEM**, **IDS**, **threat hunting**, and **incident response**.
 
 ## Key Features
-- Deployed **Splunk** and **Security Onion** for continuous log monitoring.
+- Deployed **Splunk**, **Zeek and Suricata IDS** for continuous log monitoring.
 - Created **SIEM alerts** for detecting cyber threats such as brute force attacks and privilege escalation.
 - Simulated **real-world attacks** and demonstrated incident response.
 - Documented procedures and detection rules in the **SOC Playbook** and **Incident Report**.
