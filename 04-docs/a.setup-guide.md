@@ -26,7 +26,8 @@ Before setting up, ensure your machine meets these **minimum requirements**:
 | **Ubuntu Server ISO** | Linux VM for ELK stack or additional security tools | [Download](https://ubuntu.com/download/server) |
 | **Kali Linux ISO** | VM for ethical hacking & penetration testing | [Download](https://www.kali.org/get-kali/) |
 | **Splunk Free** | SIEM tool for log analysis | [Download](https://www.splunk.com/en_gb/download.html) |
-| **Security Onion** | Network monitoring & intrusion detection | [Download](https://securityonion.net/) |
+| **Zeek** | Network monitoring tool for network traffic analysis | [Download](https://zeek.org/get-zeek/) |
+| **Suricata** | Intrusion Detection System (IDS) for network traffic monitoring | [Download](https://suricata.io/download/) |
 | **Winlogbeat** | Log forwarding from Windows to Splunk | [Download](https://www.elastic.co/beats/winlogbeat) |
 | **Sysmon** | Windows event logging tool | [Download](https://docs.microsoft.com/en-gb/sysinternals/downloads/sysmon) |
 
@@ -55,18 +56,18 @@ Before setting up, ensure your machine meets these **minimum requirements**:
 2. Configure the Splunk Web Interface & enable log collection.  
 3. Install **Winlogbeat** & **Sysmon** on the Windows 10 VM to forward logs to Splunk.  
 
-### 🔹 Setting Up Security Onion  
-1. Install **Security Onion** as a separate VM.  
-2. Configure **Suricata IDS, Zeek, and Kibana** for network traffic monitoring.  
-3. Verify logs are being collected from all virtual machines.  
+### 🔹 Setting Up Zeek and Suricata  
+1. Install **Zeek** and **Suricata** on the **Ubuntu Server VM**.  
+2. Configure **Zeek** and **Suricata IDS** for network traffic monitoring.  
+3. Ensure logs are being collected from **Zeek** and **Suricata** to your SIEM tool (e.g., Splunk).  
 
 ---
 
 ## 5️⃣ Verifying Log Collection & Connectivity  
 
 ✔ **Windows Event Logs, Sysmon logs, and Firewall logs** should appear in **Splunk**.  
-✔ **Security Onion** should be **receiving network traffic logs**.  
-✔ Create a **basic Splunk dashboard** to visualise incoming logs.  
+✔ **Zeek and Suricata** should be **receiving network traffic logs**.  
+✔ Create a **basic Splunk dashboard** to visualise incoming logs.
 
 ---
 
