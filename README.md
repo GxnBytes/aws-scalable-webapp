@@ -21,7 +21,7 @@ This project focuses on building a security monitoring lab using Splunk and Secu
 ## Project Phases
 
 ### Phase 1: Home Lab Setup & Configuration
-- **Virtual Machine Setup**: Installed VMware Workstation/VirtualBox
+- **Virtual Machine Setup**: Installed VirtualBox
 - **Security Tools Installation**: Installed Splunk, Zeek, and Suricata
 - **Log Forwarding**: Configured Sysmon and Winlogbeat for Windows event log collection
 
