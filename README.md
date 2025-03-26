@@ -1,28 +1,41 @@
 # Real-World Security Monitoring & Threat Detection
 
-## Project Overview
-I'm building a security monitoring lab using Splunk & Security Onion to detect cyber threats.
-This repository contains a hands-on project demonstrating the setup, configuration, and usage of **Splunk**, **Zeek and Suricata IDS** for real-time security monitoring and threat detection. It showcases key concepts in **SIEM**, **IDS**, **threat hunting**, and **incident response**.
+## Objective
+This project focuses on building a security monitoring lab using Splunk and Security Onion to detect cyber threats. It demonstrates the setup, configuration, and use of Splunk, Zeek, and Suricata IDS for real-time security monitoring and threat detection. Key areas covered include SIEM implementation, IDS deployment, threat hunting, and incident response.
 
-## Key Features
-- Deployed **Splunk**, **Zeek and Suricata IDS** for continuous log monitoring.
-- Created **SIEM alerts** for detecting cyber threats such as brute force attacks and privilege escalation.
-- Simulated **real-world attacks** and demonstrated incident response.
-- Documented procedures and detection rules in the **SOC Playbook** and **Incident Report**.
+## Skills Learned
+- Hands-on experience with Splunk and Security Onion for security monitoring
+- Configuring and deploying Zeek and Suricata IDS for network traffic analysis
+- Creating SIEM alerts for cyber threat detection
+- Investigating security incidents and developing a SOC Playbook
+- Understanding log collection, parsing, and analysis for security insights
+
+## Tools Used
+- **Splunk** - SIEM for log analysis and threat detection
+- **Security Onion** - Network security monitoring
+- **Zeek** - Network traffic analysis
+- **Suricata IDS** - Intrusion detection system
+- **Sysmon** - Windows event logging
+- **Winlogbeat** - Log forwarding from Windows to SIEM
 
 ## Project Phases
+
 ### Phase 1: Home Lab Setup & Configuration
-- **VM Setup**: [Instructions](01-home-lab-setup/a.VM-configuration.md)
-- **Security Tools Setup**: [Guide](01-home-lab-setup/b.security-tools-setup.md)
+- **Virtual Machine Setup**: Installed VMware Workstation/VirtualBox
+- **Security Tools Installation**: Installed Splunk, Zeek, and Suricata
+- **Log Forwarding**: Configured Sysmon and Winlogbeat for Windows event log collection
 
 ### Phase 2: SIEM Alerts & Dashboards
-- **Brute Force Detection**: [Alert Configuration](02-siem-alerts/a.brute-force-alerts.md)
-- **Privilege Escalation Detection**: [Alert Configuration](02-siem-alerts/b.privilege-escalation-alerts.md)
+- **Brute Force Detection**: Configured SIEM alerts to detect brute force attacks
+- **Privilege Escalation Detection**: Set up alerts for privilege escalation attempts
+- **Dashboard Creation**: Built dashboards to visualise security events
 
 ### Phase 3: Incident Response
-- **Incident Report**: [Report](03-incident-response/a.incident-report.md)
-- **SOC Playbook**: [Playbook](03-incident-response/b.SOC-playbook.md)
+- **SOC Playbook**: Documented standard operating procedures for security incidents
+- **Incident Reports**: Created reports based on detected security threats
 
-## Resources
-- [Setup Guide](04-docs/a.setup-guide.md)
-- [Project Summary](04-docs/b.project-summary.md)
+## Challenges
+*To be documented*
+
+## Attack Simulations & Results
+*To be documented*
