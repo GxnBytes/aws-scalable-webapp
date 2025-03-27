@@ -1,10 +1,10 @@
 # Real-World Security Monitoring & Threat Detection
 
 ## Objective
-This project focuses on building a security monitoring lab using Splunk and Security Onion to detect cyber threats. It demonstrates the setup, configuration, and use of Splunk, Zeek, and Suricata IDS for real-time security monitoring and threat detection. Key areas covered include SIEM implementation, IDS deployment, threat hunting, and incident response.
+This project focuses on building a security monitoring lab using Splunk to detect cyber threats. It demonstrates the setup, configuration, and use of Splunk, Zeek, and Suricata IDS for real-time security monitoring and threat detection. Key areas covered include SIEM implementation, IDS deployment, threat hunting, and incident response.
 
 ## Skills Learned
-- Hands-on experience with Splunk and Security Onion for security monitoring
+- Hands-on experience with Splunk for security monitoring
 - Configuring and deploying Zeek and Suricata IDS for network traffic analysis
 - Creating SIEM alerts for cyber threat detection
 - Investigating security incidents and developing a SOC Playbook
