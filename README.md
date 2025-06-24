@@ -19,18 +19,20 @@ This project involves building a security monitoring lab to explore threat detec
 ## Project Phases
 
 ### Phase 1: Home Lab Setup & Configuration
-- **Virtual Machine Setup**: Installed VirtualBox
-- **Security Tools Installation**: Installed Splunk, Zeek, and Suricata
-- **Log Forwarding**: Configured Sysmon and Winlogbeat for Windows event log collection
+- **Virtual Machine Setup**: Installed VirtualBox; created Windows and Linux VMs
+- **Security Tools Installation**: Installed Splunk Enterprise on Linux VM; installed Sysmon and Winlogbeat on Windows VM
+- **Log Forwarding Configuration**: Configured Sysmon for detailed Windows event logging and Winlogbeat to forward logs to Splunk via HTTP Event Collector
+- **(Optional) Network IDS Setup**: Installed and configured Suricata on Linux VM for network traffic monitoring and alerting
 
 ### Phase 2: SIEM Alerts & Dashboards
-- **Brute Force Detection**: Configured SIEM alerts to detect brute force attacks
-- **Privilege Escalation Detection**: Set up alerts for privilege escalation attempts
-- **Dashboard Creation**: Built dashboards to visualise security events
+- **Event Data Ingestion**: Successfully ingested Windows Sysmon logs and Suricata alerts into Splunk
+- **Alert Rules Configuration**: Created alerts for brute force login attempts, suspicious process creations, and privilege escalation indicators
+- **Dashboard Development**: Built interactive Splunk dashboards to visualize endpoint and network security events in real-time
 
-### Phase 3: Incident Response
-- **SOC Playbook**: Documented standard operating procedures for security incidents
-- **Incident Reports**: Created reports based on detected security threats
+### Phase 3: Incident Response & Analysis
+- **Simulated Attack Scenarios**: Generated test attacks (e.g., brute force, suspicious processes) to validate detection capabilities
+- **Incident Documentation**: Developed basic SOC playbooks and incident reports based on lab detections and alert triggers
+- **Continuous Improvement**: Tuned alert thresholds and log collection for reducing false positives and improving detection accuracy
 
 ## Challenges
 *To be documented*
