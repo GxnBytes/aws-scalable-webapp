@@ -12,11 +12,9 @@ This project involves building a security monitoring lab to explore threat detec
 
 ## Tools Used
 - **Splunk** - SIEM for log analysis and threat detection
-- **Security Onion** - Network security monitoring
-- **Zeek** - Network traffic analysis
-- **Suricata IDS** - Intrusion detection system
-- **Sysmon** - Windows event logging
-- **Winlogbeat** - Log forwarding from Windows to SIEM
+- **Sysmon** - Windows system monitoring for detailed event logging.
+- **Suricata** - Network IDS for threat detection on network traffic.
+- **Winlogbeat** - Lightweight agent to ship Windows logs to Splunk.
 
 ## Project Phases
 
