@@ -1,14 +1,14 @@
 # Threat Detection Home Lab
 
 ## Objective
-This project focuses on building a security monitoring lab using Splunk to detect cyber threats. It demonstrates the setup, configuration, and use of Splunk, Zeek, and Suricata IDS for real-time security monitoring and threat detection. Key areas covered include SIEM implementation, IDS deployment, threat hunting, and incident response.
+This project involves building a security monitoring lab to explore threat detection and incident response in a controlled environment. It covers the setup of monitoring systems, log analysis, network visibility, and threat hunting techniques, with a focus on simulating real-world scenarios and improving defensive capabilities.
 
 ## Skills Learned
-- Hands-on experience with Splunk for security monitoring
-- Configuring and deploying Zeek and Suricata IDS for network traffic analysis
-- Creating SIEM alerts for cyber threat detection
-- Investigating security incidents and developing a SOC Playbook
-- Understanding log collection, parsing, and analysis for security insights
+- Gained hands-on experience in security monitoring within a lab environment
+- Configured and deployed network traffic analysis tools
+- Created alerts and rules for detecting suspicious activity
+- Investigated simulated security incidents and developed response procedures
+- Explored log collection, parsing, and analysis for threat detection and insights
 
 ## Tools Used
 - **Splunk** - SIEM for log analysis and threat detection
