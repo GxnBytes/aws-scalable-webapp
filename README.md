@@ -13,9 +13,10 @@ This project involves building a security monitoring lab to explore threat detec
 - Explored log collection, parsing, and analysis for threat detection and insights
 <br>
 
+<!--
 ### Network Topologies
 📸 ![Network Topologies](screenshots/network_topologies.png)
-
+-->
 ## 🖥️ Operating Systems
 - **Windows Server 2025**  
   Enterprise-grade OS for directory services and identity management. Serves as the central domain controller for network authentication and connectivity.
