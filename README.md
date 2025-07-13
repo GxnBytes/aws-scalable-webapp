@@ -49,7 +49,7 @@ Below are the specifications for each virtual machine. These are important for s
 
 | Hostname \[`skynet-…`\]           | IP Address                 | Function                              |
 |--------------------------------------|-----------------------------|----------------------------------------|
-| -dc (corp.project-x-dc.com)          | 10.0.0.5                   | Domain Controller (DNS, DHCP, SSO)     |
+| -dc (corp.skynet-dc.com)          | 10.0.0.5                   | Domain Controller (DNS, DHCP, SSO)     |
 | -admin                               | 10.0.0.8                   | Corporate Server                        |
 | -sec-box                             | 10.0.0.10                  | Dedicated Security Server              |
 | -sec-work                            | 10.0.0.103 or (dynamic)    | Security Playground                    |
