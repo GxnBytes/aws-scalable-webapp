@@ -1,4 +1,5 @@
-# 🚨 Threat Detection & Monitoring Lab ![Status](https://img.shields.io/badge/status-in%20development-yellow)
+# 🚨 Threat Detection & Monitoring Lab 
+![Status](https://img.shields.io/badge/status-in%20development-yellow)
 
 ## Project Overview
 This project involves building a security monitoring lab to explore threat detection and incident response in a controlled environment. It covers the setup of monitoring systems, log analysis, network visibility, and threat hunting techniques, with a focus on simulating real-world scenarios and improving defensive capabilities.
