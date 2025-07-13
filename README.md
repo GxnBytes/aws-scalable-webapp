@@ -27,7 +27,8 @@ This project involves building a security monitoring lab to explore threat detec
 - **Kali Linux**  
   Penetration testing and ethical hacking distro. Equipped with tools for vulnerability scanning, exploitation, and digital forensics.
 
-## Virtual Machines (VMs)
+
+##⚙️ Virtual Machines (VMs)
 
 For virtualization, either **VirtualBox** or **VMware Workstation Pro** can be used as the hypervisor.
 
