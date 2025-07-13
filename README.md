@@ -39,7 +39,7 @@ Below are the specifications for each virtual machine. These are important for s
 | `skynet-win-client` | Windows 11 Enterprise | 2 CPU / 4096 MB | 80 GB             |
 | `skynet-linux-client` | Ubuntu 24.04 Desktop  | 1 CPU / 2048 MB | 80 GB             |
 | `skynet-sec-work` | Security Onion          | 1 CPU / 2048 MB | 55 GB             |
-| `skynet-sec-box`  | Ubuntu 24.04 Desktop    | 2 CPU / 3500 MB | 30 GB             |
+| `skynet-sec-box`  | Ubuntu 24.04 Desktop    | 2 CPU / 4096 MB | 80 GB             |
 | `skynet-corp-svr` | Ubuntu Server 24.04     | 1 CPU / 2048 MB | 25 GB             |
 | `skynet-attacker` | Kali Linux 2024       | 1 CPU / 2048 MB | 55 GB             |
 
