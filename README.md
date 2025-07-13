@@ -45,6 +45,17 @@ Below are the specifications for each virtual machine. These are important for s
 | `skynet-corp-svr` | Ubuntu Server 24.04     | 1 CPU / 2048 MB | 25 GB             |
 | `skynet-attacker` | Kali Linux 2024       | 1 CPU / 2048 MB | 55 GB             |
 
+## Accounts & Passwords
+
+| Account                              | Password        | Host            |
+|--------------------------------------|-----------------|-----------------|
+| Administrator                        | password123!    | ...-dc          |
+| johnd@corp.skynet-dc.com          | password123!   | ...-win-client  |
+| janed@linux-client                   | password123!   | ...-linux-client|
+| skynet-sec-work                   | password123!   | ...-sec-work    |
+| sec-work@sec-box                     | password123!   | ...-sec-box     |
+| skynet-admin@corp-svr            | password123!   | ...-corp-svr    |
+| attacker@attacker                   | attacker         | attacker        |
 
 ## 🛠️ Tools Used
   **🛡️ Enterprise Tools & Defense**
