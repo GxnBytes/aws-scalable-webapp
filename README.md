@@ -3,12 +3,14 @@
 ## Objective
 This project involves building a security monitoring lab to explore threat detection and incident response in a controlled environment. It covers the setup of monitoring systems, log analysis, network visibility, and threat hunting techniques, with a focus on simulating real-world scenarios and improving defensive capabilities.
 
+
 ## Skills Learned
 - Gained hands-on experience in security monitoring within a lab environment
 - Configured and deployed network traffic analysis tools
 - Created alerts and rules for detecting suspicious activity
 - Investigated simulated security incidents and developed response procedures
 - Explored log collection, parsing, and analysis for threat detection and insights
+
 
 ## Operating Systems
 - **Windows Server 2025**  
@@ -26,10 +28,28 @@ This project involves building a security monitoring lab to explore threat detec
   Penetration testing and ethical hacking distro. Equipped with tools for vulnerability scanning, exploitation, and digital forensics.
 
 ## Tools Used
-- **Splunk** - SIEM for log analysis and threat detection
-- **Sysmon** - Windows system monitoring for detailed event logging.
-- **Suricata** - Network IDS for threat detection on network traffic.
-- **Winlogbeat** - Lightweight agent to ship Windows logs to Splunk.
+  **Enterprise Tools & Defense**
+- **Microsoft Active Directory**  
+  Centralized directory service for managing users, devices, and permissions in a Windows-based network environment.
+- **Wazuh**  
+  Open-source security platform offering intrusion detection, log monitoring, vulnerability detection, and compliance reporting.
+- **MailHog**  
+  Lightweight email testing tool that captures outgoing messages via a fake SMTP server. Emails are viewable through a web UI or API, without sending to real inboxes.
+
+---
+
+## Offensive Security Tools
+- **Evil-WinRM**  
+  Ruby-based WinRM client used for post-exploitation on Windows systems. Supports remote command execution and data extraction.
+- **Hydra**  
+  Fast, flexible tool for brute-force and dictionary attacks across various network services like SSH, HTTP, and FTP.
+- **SecLists**  
+  Curated collection of wordlists and payloads used during reconnaissance, brute-forcing, and exploitation stages.
+- **NetExec**  
+  Network exploitation tool that enables remote command execution via multiple protocols, aiding lateral movement and privilege escalation.
+- **XFreeRDP**  
+  Open-source RDP client used to remotely access and control Windows machines for recon and post-exploitation activities.
+
 
 ## Project Phases
 
