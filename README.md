@@ -39,7 +39,7 @@ This project involves building a security monitoring lab to explore threat detec
 
 ---
 
-## ⚔️ Offensive Security Tools
+**⚔️ Offensive Security Tools**
 - **Evil-WinRM**  
   Ruby-based WinRM client used for post-exploitation on Windows systems. Supports remote command execution and data extraction.
 - **Hydra**  
