@@ -93,7 +93,7 @@ Below are the specifications for each virtual machine. These are important for s
 - **XFreeRDP**  
   Open-source RDP client used to remotely access and control Windows machines for recon and post-exploitation activities.
 <br>
-<br>
+
 
 ## Project Phases
 
