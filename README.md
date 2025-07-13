@@ -69,20 +69,19 @@ Below are the specifications for each virtual machine. These are important for s
 ## Project Phases
 
 ### Phase 1: Home Lab Setup & Configuration
-- **Virtual Machine Setup**: Installed VirtualBox; created Windows and Linux VMs
-- **Security Tools Installation**: Installed Splunk Enterprise on Linux VM; installed Sysmon and Winlogbeat on Windows VM
-- **Log Forwarding Configuration**: Configured Sysmon for detailed Windows event logging and Winlogbeat to forward logs to Splunk via HTTP Event Collector
-- **(Optional) Network IDS Setup**: Installed and configured Suricata on Linux VM for network traffic monitoring and alerting
+- **Virtual Machine Setup:** Used VirtualBox/VMware to create Windows and Linux-based VMs
+- **Security Tools Installation:** Installed Wazuh (SIEM) and Security Onion (IDS/NSM) on dedicated Ubuntu-based VMs
+- **Infrastructure Configuration:** Set up Active Directory (Windows Server 2025), MailHog (SMTP simulation), and endpoint systems (Windows 11, Ubuntu Desktop)
 
 ### Phase 2: SIEM Alerts & Dashboards
-- **Event Data Ingestion**: Successfully ingested Windows Sysmon logs and Suricata alerts into Splunk
-- **Alert Rules Configuration**: Created alerts for brute force login attempts, suspicious process creations, and privilege escalation indicators
-- **Dashboard Development**: Built interactive Splunk dashboards to visualize endpoint and network security events in real-time
+- **Event Data Ingestion:** Forwarded host and network logs to Wazuh; Security Onion captured live traffic via Zeek and Suricata
+- **Alert Rules Configuration:** Created custom rules in Wazuh to detect brute-force attempts, suspicious process activity, and privilege escalation
+- **Dashboard Development:** Used Wazuh’s built-in dashboards and Security Onion’s web interface to monitor and analyze alerts in real time
 
 ### Phase 3: Incident Response & Analysis
-- **Simulated Attack Scenarios**: Generated test attacks (e.g., brute force, suspicious processes) to validate detection capabilities
-- **Incident Documentation**: Developed basic SOC playbooks and incident reports based on lab detections and alert triggers
-- **Continuous Improvement**: Tuned alert thresholds and log collection for reducing false positives and improving detection accuracy
+- **Simulated Attack Scenarios:** Launched test attacks using tools like Hydra (brute-force), Evil-WinRM (remote access), NetExec (lateral movement), and XFreeRDP (remote desktop)
+- **Incident Documentation:** Created SOC-style playbooks, noted alert triggers, and recorded findings for review and reporting
+- **Continuous Improvement:** Fine-tuned detection rules and log sources to improve visibility and reduce false positives
 
 ## Challenges
 *To be documented*
