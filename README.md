@@ -76,7 +76,7 @@ Below are the specifications for each virtual machine. These are important for s
 - **Infrastructure Configuration:** Set up Active Directory (Windows Server 2025), MailHog (SMTP simulation), and endpoint systems (Windows 11, Ubuntu Desktop)
 
 ### Phase 2: SIEM Alerts & Dashboards
-- **Event Data Ingestion:** Forwarded host and network logs to Wazuh; Security Onion captured live traffic via Zeek and Suricata
+- **Event Data Ingestion:** Forwarded host and network logs to Wazuh; Security Onion captured live traffic
 - **Alert Rules Configuration:** Created custom rules in Wazuh to detect brute-force attempts, suspicious process activity, and privilege escalation
 - **Dashboard Development:** Used Wazuh’s built-in dashboards and Security Onion’s web interface to monitor and analyze alerts in real time
 
