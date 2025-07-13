@@ -45,6 +45,19 @@ Below are the specifications for each virtual machine. These are important for s
 | `skynet-corp-svr` | Ubuntu Server 24.04     | 1 CPU / 2048 MB | 25 GB             |
 | `skynet-attacker` | Kali Linux 2024       | 1 CPU / 2048 MB | 55 GB             |
 
+## Hosts
+
+| Hostname \[`project-x-…`\]           | IP Address                 | Function                              |
+|--------------------------------------|-----------------------------|----------------------------------------|
+| -dc (corp.project-x-dc.com)          | 10.0.0.5                   | Domain Controller (DNS, DHCP, SSO)     |
+| -admin                               | 10.0.0.8                   | Corporate Server                        |
+| -sec-box                             | 10.0.0.10                  | Dedicated Security Server              |
+| -sec-work                            | 10.0.0.103 or (dynamic)    | Security Playground                    |
+| -win-client                          | 10.0.0.100 or (dynamic)    | Windows Workstation                    |
+| -linux-client                        | 10.0.0.101 or (dynamic)    | Linux Desktop Workstation             |
+| attacker                             | dynamic                    | Attacker Environment                   |
+
+
 ## Accounts & Passwords
 
 | Account                              | Password        | Host            |
