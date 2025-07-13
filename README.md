@@ -71,7 +71,6 @@ Below are the specifications for each virtual machine. These are important for s
 | skynet-admin@corp-svr            | password123!   | ...-corp-svr    |
 | attacker@attacker                   | attacker         | attacker        |
 <br>
-<br>
 
 ## 🛠️ Tools Used
   **🛡️ Enterprise Tools & Defense**
