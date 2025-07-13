@@ -3,15 +3,15 @@
 
 ## Project Overview
 This project involves building a security monitoring lab to explore threat detection and incident response in a controlled environment. It covers the setup of monitoring systems, log analysis, network visibility, and threat hunting techniques, with a focus on simulating real-world scenarios and improving defensive capabilities.
-
-
+<br>
+<br>
 ## Skills Learned
 - Gained hands-on experience in security monitoring within a lab environment
 - Configured and deployed network traffic analysis tools
 - Created alerts and rules for detecting suspicious activity
 - Investigated simulated security incidents and developed response procedures
 - Explored log collection, parsing, and analysis for threat detection and insights
-
+<br>
 
 ## 🖥️ Operating Systems
 - **Windows Server 2025**  
@@ -27,6 +27,7 @@ This project involves building a security monitoring lab to explore threat detec
   Reliable server OS for hosting services like mail, databases, and web applications. Deployed as the internal email server.
 - **Kali Linux**  
   Penetration testing and ethical hacking distro. Equipped with tools for vulnerability scanning, exploitation, and digital forensics.
+<br>
 
 
 ## ⚙️ Virtual Machines (VMs)
@@ -69,7 +70,8 @@ Below are the specifications for each virtual machine. These are important for s
 | sec-work@sec-box                     | password123!   | ...-sec-box     |
 | skynet-admin@corp-svr            | password123!   | ...-corp-svr    |
 | attacker@attacker                   | attacker         | attacker        |
-
+<br>
+<br>
 ## 🛠️ Tools Used
   **🛡️ Enterprise Tools & Defense**
 - **Microsoft Active Directory**  
@@ -90,7 +92,8 @@ Below are the specifications for each virtual machine. These are important for s
   Network exploitation tool that enables remote command execution via multiple protocols, aiding lateral movement and privilege escalation.
 - **XFreeRDP**  
   Open-source RDP client used to remotely access and control Windows machines for recon and post-exploitation activities.
-
+<br>
+<br>
 
 ## Project Phases
 
@@ -108,6 +111,7 @@ Below are the specifications for each virtual machine. These are important for s
 - **Simulated Attack Scenarios:** Launched test attacks using tools like Hydra (brute-force), Evil-WinRM (remote access), NetExec (lateral movement), and XFreeRDP (remote desktop)
 - **Incident Documentation:** Created SOC-style playbooks, noted alert triggers, and recorded findings for review and reporting
 - **Continuous Improvement:** Fine-tuned detection rules and log sources to improve visibility and reduce false positives
+<br>
 
 ## Challenges
 *To be documented*
