@@ -71,7 +71,7 @@ Below are the specifications for each virtual machine. These are important for s
 ## Project Phases
 
 ### Phase 1: Home Lab Setup & Configuration
-- **Virtual Machine Setup:** Used VirtualBox/VMware to create Windows and Linux-based VMs
+- **Virtual Machine Setup:** Used VirtualBox to create Windows and Linux-based VMs
 - **Security Tools Installation:** Installed Wazuh (SIEM) and Security Onion (IDS/NSM) on dedicated Ubuntu-based VMs
 - **Infrastructure Configuration:** Set up Active Directory (Windows Server 2025), MailHog (SMTP simulation), and endpoint systems (Windows 11, Ubuntu Desktop)
 
