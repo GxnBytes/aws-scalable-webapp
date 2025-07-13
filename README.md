@@ -10,6 +10,21 @@ This project involves building a security monitoring lab to explore threat detec
 - Investigated simulated security incidents and developed response procedures
 - Explored log collection, parsing, and analysis for threat detection and insights
 
+## Operating Systems
+- **Windows Server 2025**  
+  Enterprise-grade OS for directory services and identity management. Serves as the central domain controller for network authentication and connectivity.
+
+- **Windows 11 Enterprise**  
+  Business-focused desktop OS optimized for productivity. Used to simulate a typical corporate end-user environment.
+- **Ubuntu Desktop 22.04**  
+  Versatile Linux desktop, ideal for development workflows. Simulates a software development workstation in an enterprise setting.
+- **Security Onion**  
+  Open-source platform for threat detection, log analysis, and intrusion detection. Used for monitoring and responding to network security events.
+- **Ubuntu Server 22.04**  
+  Reliable server OS for hosting services like mail, databases, and web applications. Deployed as the internal email server.
+- **Kali Linux**  
+  Penetration testing and ethical hacking distro. Equipped with tools for vulnerability scanning, exploitation, and digital forensics.
+
 ## Tools Used
 - **Splunk** - SIEM for log analysis and threat detection
 - **Sysmon** - Windows system monitoring for detailed event logging.
