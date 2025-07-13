@@ -37,8 +37,6 @@ This project involves building a security monitoring lab to explore threat detec
 - **MailHog**  
   Lightweight email testing tool that captures outgoing messages via a fake SMTP server. Emails are viewable through a web UI or API, without sending to real inboxes.
 
----
-
 **⚔️ Offensive Security Tools**
 - **Evil-WinRM**  
   Ruby-based WinRM client used for post-exploitation on Windows systems. Supports remote command execution and data extraction.
