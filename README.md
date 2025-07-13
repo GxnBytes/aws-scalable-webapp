@@ -1,6 +1,6 @@
 # Threat Detection & Monitoring Lab
 
-## Objective
+## Project Overview
 This project involves building a security monitoring lab to explore threat detection and incident response in a controlled environment. It covers the setup of monitoring systems, log analysis, network visibility, and threat hunting techniques, with a focus on simulating real-world scenarios and improving defensive capabilities.
 
 
