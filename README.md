@@ -1,4 +1,4 @@
-# 🚨Threat Detection & Monitoring Lab
+# 🚨 Threat Detection & Monitoring Lab
 
 ## Project Overview
 This project involves building a security monitoring lab to explore threat detection and incident response in a controlled environment. It covers the setup of monitoring systems, log analysis, network visibility, and threat hunting techniques, with a focus on simulating real-world scenarios and improving defensive capabilities.
@@ -27,7 +27,7 @@ This project involves building a security monitoring lab to explore threat detec
 - **Kali Linux**  
   Penetration testing and ethical hacking distro. Equipped with tools for vulnerability scanning, exploitation, and digital forensics.
 
-## Tools Used
+## 🛠️ Tools Used
   **🛡️ Enterprise Tools & Defense**
 - **Microsoft Active Directory**  
   Centralized directory service for managing users, devices, and permissions in a Windows-based network environment.
