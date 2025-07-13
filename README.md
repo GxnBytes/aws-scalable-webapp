@@ -27,6 +27,7 @@ This project involves building a security monitoring lab to explore threat detec
 - **Kali Linux**  
   Penetration testing and ethical hacking distro. Equipped with tools for vulnerability scanning, exploitation, and digital forensics.
 
+
 ## 🛠️ Tools Used
   **🛡️ Enterprise Tools & Defense**
 - **Microsoft Active Directory**  
