@@ -47,7 +47,7 @@ Below are the specifications for each virtual machine. These are important for s
 
 ## Hosts
 
-| Hostname \[`project-x-…`\]           | IP Address                 | Function                              |
+| Hostname \[`skynet-…`\]           | IP Address                 | Function                              |
 |--------------------------------------|-----------------------------|----------------------------------------|
 | -dc (corp.project-x-dc.com)          | 10.0.0.5                   | Domain Controller (DNS, DHCP, SSO)     |
 | -admin                               | 10.0.0.8                   | Corporate Server                        |
