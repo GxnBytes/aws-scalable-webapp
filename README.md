@@ -1,4 +1,4 @@
-# Threat Detection & Monitoring Lab
+# 🚨Threat Detection & Monitoring Lab
 
 ## Project Overview
 This project involves building a security monitoring lab to explore threat detection and incident response in a controlled environment. It covers the setup of monitoring systems, log analysis, network visibility, and threat hunting techniques, with a focus on simulating real-world scenarios and improving defensive capabilities.
@@ -12,7 +12,7 @@ This project involves building a security monitoring lab to explore threat detec
 - Explored log collection, parsing, and analysis for threat detection and insights
 
 
-## Operating Systems
+## 🖥️ Operating Systems
 - **Windows Server 2025**  
   Enterprise-grade OS for directory services and identity management. Serves as the central domain controller for network authentication and connectivity.
 
@@ -28,7 +28,7 @@ This project involves building a security monitoring lab to explore threat detec
   Penetration testing and ethical hacking distro. Equipped with tools for vulnerability scanning, exploitation, and digital forensics.
 
 ## Tools Used
-  **Enterprise Tools & Defense**
+  **🛡️ Enterprise Tools & Defense**
 - **Microsoft Active Directory**  
   Centralized directory service for managing users, devices, and permissions in a Windows-based network environment.
 - **Wazuh**  
@@ -38,7 +38,7 @@ This project involves building a security monitoring lab to explore threat detec
 
 ---
 
-## Offensive Security Tools
+## ⚔️ Offensive Security Tools
 - **Evil-WinRM**  
   Ruby-based WinRM client used for post-exploitation on Windows systems. Supports remote command execution and data extraction.
 - **Hydra**  
