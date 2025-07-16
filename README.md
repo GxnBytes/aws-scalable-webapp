@@ -103,7 +103,7 @@ Below are the specifications for each virtual machine. These are important for s
 
 ## Project Phases
 
-### Phase 1: Home Lab Setup & Configuration
+### [Phase 1: Home Lab Setup & Configuration](https://github.com/Genvarelli/Threat-Detection-Monitoring-Lab/tree/main/Phase%201%3A%20Home%20Lab%20Setup%20%26%20Configuration)
 ### Phase 2: SIEM Alerts & Dashboards
 ### Phase 3: Incident Response & Analysis
 <br>
