@@ -52,7 +52,7 @@ Devices → Drag and Drop → Bidirectional**
 sudo apt update
 sudo apt install -y build-essential dkms linux-headers-$(uname -r)
 
-    Reboot the VM after installation.
+- Reboot the VM after installation.
 
 ✅ Result
 
