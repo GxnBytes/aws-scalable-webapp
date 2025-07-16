@@ -104,19 +104,8 @@ Below are the specifications for each virtual machine. These are important for s
 ## Project Phases
 
 ### Phase 1: Home Lab Setup & Configuration
-- **Virtual Machine Setup:** Used VirtualBox to create Windows and Linux-based VMs
-- **Security Tools Installation:** Installed Wazuh (SIEM) and Security Onion (IDS/NSM) on dedicated Ubuntu-based VMs
-- **Infrastructure Configuration:** Set up Active Directory (Windows Server 2025), MailHog (SMTP simulation), and endpoint systems (Windows 11, Ubuntu Desktop)
-
 ### Phase 2: SIEM Alerts & Dashboards
-- **Event Data Ingestion:** Forwarded host and network logs to Wazuh; Security Onion captured live traffic
-- **Alert Rules Configuration:** Created custom rules in Wazuh to detect brute-force attempts, suspicious process activity, and privilege escalation
-- **Dashboard Development:** Used Wazuh’s built-in dashboards and Security Onion’s web interface to monitor and analyze alerts in real time
-
 ### Phase 3: Incident Response & Analysis
-- **Simulated Attack Scenarios:** Launched test attacks using tools like Hydra (brute-force), Evil-WinRM (remote access), NetExec (lateral movement), and XFreeRDP (remote desktop)
-- **Incident Documentation:** Created SOC-style playbooks, noted alert triggers, and recorded findings for review and reporting
-- **Continuous Improvement:** Fine-tuned detection rules and log sources to improve visibility and reduce false positives
 <br>
 
 ## Challenges
