@@ -48,9 +48,9 @@ Devices → Drag and Drop → Bidirectional**
 (Right-click → Open in Terminal → Run with sudo if needed)
 
 - You may need to install required packages beforehand:
- ```bash
-  sudo apt update
-  sudo apt install -y build-essential dkms linux-headers-$(uname -r)
+   ```bash
+   sudo apt update
+   sudo apt install -y build-essential dkms linux-headers-$(uname -r)
 
 - Reboot the VM after installation.
 
