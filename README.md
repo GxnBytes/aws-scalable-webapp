@@ -70,7 +70,7 @@ Below are the specifications for each virtual machine. These are important for s
 | Account                              | Password        | Host            |
 |--------------------------------------|-----------------|-----------------|
 | Administrator                        | password123!    | ...-dc          |
-| johnd@corp.skynet-dc.com          | password123!   | ...-win-client  |
+| John Doe          | password123!   | ...-win-client  |
 | janed@linux-client                   | password123!   | ...-linux-client|
 | skynet-sec-work                   | password123!   | ...-sec-work    |
 | sec-work@sec-box                     | password123!   | ...-sec-box     |
