@@ -2,22 +2,34 @@
 
 ## Why I Switched from Windows
 
-I removed Windows from my machine because it felt bulky and inefficient for my cybersecurity homelab. Running a native Linux system (Ubuntu) provided better performance, more control over system resources, and seamless access to open-source security tools.
-
-Using Linux as my primary OS also aligned with my goal of building real-world skills in a typical enterprise environment — where Linux is widely used for servers, security tooling, and infrastructure automation.
+I removed Windows from my machine because it felt bulky and inefficient for my cybersecurity homelab. Running a native Linux system (Ubuntu) gave me better performance, more control, and easier access to open-source security tools. It also helped me sharpen my Linux skills, which are essential in real-world cybersecurity environments.
 
 ---
 
-## 🧰 Installing VirtualBox on Ubuntu
+## 🧰 Installing VirtualBox on Ubuntu (Downloaded from Official Site)
 
-I installed **VirtualBox version 7.0.26r168464** on my Ubuntu machine to manage and run isolated virtual environments for my lab.
+I installed **VirtualBox version 7.0.26r168464** by downloading the `.deb` package directly from the official Oracle VirtualBox website.
 
-### Step-by-Step Installation
+### Installation Steps:
 
-1. **Update system packages**
+1. **Go to the official download page**  
+   👉 [https://www.virtualbox.org/wiki/Linux_Downloads](https://www.virtualbox.org/wiki/Linux_Downloads)
+
+2. **Download the Debian package** for your Ubuntu version (e.g., `Ubuntu 20.04`, `22.04`, etc.)
+
+3. **Install the package using your terminal**
    ```bash
-   sudo apt update && sudo apt upgrade -y
-   
-2. **Install required dependencies**
+   cd ~/Downloads
+   sudo dpkg -i virtualbox-7.0_*.deb
+
+4. **Fix any missing dependencies (if needed)**
    ```bash
-   sudo apt install -y software-properties-common
+   sudo apt --fix-broken install
+
+5. **Verify the installation**
+   ```bash
+   virtualbox --help
+
+VirtualBox is now ready for use. I use it to run virtual machines as part of my cybersecurity homelab setup.
+
+    ✅ Version installed: VirtualBox 7.0.26r168464 on Ubuntu Linux
