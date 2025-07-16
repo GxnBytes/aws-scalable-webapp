@@ -2,7 +2,9 @@
 ![Status](https://img.shields.io/badge/status-In%20Development-yellow)
 
 ## Project Overview
-This project involves building a security monitoring lab to explore threat detection and incident response in a controlled environment. It covers the setup of monitoring systems, log analysis, network visibility, and threat hunting techniques, with a focus on simulating real-world scenarios and improving defensive capabilities.
+This project is a multi-VM cyber security lab designed to simulate enterprise infrastructure and explore threat detection, monitoring, and incident response in a controlled environment.
+
+The lab includes Windows and Linux systems running Active Directory, Wazuh, Security Onion, and MailHog. Realistic attack scenarios are simulated using offensive tools such as Hydra, Evil-WinRM, NetExec, and XFreeRDP to test detection capabilities. Custom SIEM rules and alerts are developed to identify brute-force attempts, privilege escalation, and lateral movement. Logs are analysed, and incidents documented to improve blue team techniques and defensive visibility.
 <br>
 <br>
 ## Skills Learned
