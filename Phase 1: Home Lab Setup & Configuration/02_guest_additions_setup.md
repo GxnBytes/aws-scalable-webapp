@@ -27,8 +27,8 @@ Guest Additions were installed and configured for:
 4. Reboot the VM.
 5. Enable integration features via:
 
-Devices → Shared Clipboard → Bidirectional
-Devices → Drag and Drop → Bidirectional
+**Devices → Shared Clipboard → Bidirectional
+Devices → Drag and Drop → Bidirectional**
 
 
 ---
