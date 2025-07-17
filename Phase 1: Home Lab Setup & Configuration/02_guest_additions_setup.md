@@ -48,13 +48,13 @@ Devices → Drag and Drop → Bidirectional** ![Integration](04_snapshots/integr
 
 > 📸 ![Terminal](04_snapshots/terminal.png)
 
-   ```bash
-   sudo ./VBoxLinuxAdditions.run
+     ```bash
+     sudo ./VBoxLinuxAdditions.run
 
 - You may need to install required packages beforehand:
-    ```bash
-    sudo apt update
-    sudo apt install -y build-essential dkms linux-headers-$(uname -r)
+     ```bash
+     sudo apt update
+     sudo apt install -y build-essential dkms linux-headers-$(uname -r)
 
 - Reboot the VM after installation.
 
