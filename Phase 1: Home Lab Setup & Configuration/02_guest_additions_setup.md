@@ -27,7 +27,7 @@ Guest Additions were installed and configured for:
 5. Enable integration features via:
 
 > 📸 **Machine → Settings → General → Advanced → Shared Clipboard → Bidirectional
-Devices → Drag and Drop → Bidirectional** ![Integration](04_snapshots/integration.png)
+Devices → Drag and Drop → Bidirectional** ![Integration](img/integration.png)
 
 ---
 
@@ -44,9 +44,9 @@ Devices → Drag and Drop → Bidirectional** ![Integration](04_snapshots/integr
 - After inserting the CD, open the file manager and run:  
  `VBoxLinuxAdditions.run`
 
-> 📸 **(Right-click → Open in Terminal → Run with sudo if needed)** ![Open in Terminal](04_snapshots/openterminal.png)
+> 📸 **(Right-click → Open in Terminal → Run with sudo if needed)** ![Open in Terminal](img/openterminal.png)
 
-> 📸 ![Terminal](04_snapshots/terminal.png)
+> 📸 ![Terminal](img/terminal.png)
 
      ```bash
      sudo ./VBoxLinuxAdditions.run
