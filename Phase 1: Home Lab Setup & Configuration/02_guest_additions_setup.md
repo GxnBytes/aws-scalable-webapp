@@ -46,6 +46,7 @@ Devices → Drag and Drop → Bidirectional**
 
 - After inserting the CD, open the file manager and run:  
  `VBoxLinuxAdditions.run`
+
 ***(Right-click → Open in Terminal → Run with sudo if needed)***
 > 📸 ![Open in Terminal](04_snapshots/openterminal.png)
 
