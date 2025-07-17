@@ -25,7 +25,7 @@ The lab includes Windows and Linux systems running Active Directory, Wazuh, Secu
 
 - **Windows 11 Enterprise**  
   Business-focused desktop OS optimized for productivity. Used to simulate a typical corporate end-user environment.
-- **Ubuntu Desktop 22.04**  
+- **Ubuntu Desktop 24.04**  
   Versatile Linux desktop, ideal for development workflows. Simulates a software development workstation in an enterprise setting.
 - **Security Onion**  
   Open-source platform for threat detection, log analysis, and intrusion detection. Used for monitoring and responding to network security events.
