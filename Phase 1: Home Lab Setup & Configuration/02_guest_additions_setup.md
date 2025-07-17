@@ -21,16 +21,13 @@ Guest Additions were installed and configured for:
 1. Start the VM.
 2. In the **VirtualBox menu bar**, go to:  
 
-**Devices → Insert Guest Additions CD image...**
-> 📸 ![Insert Guest Additions CD image](04_snapshots/insertcdimage.png)
+> 📸 **Devices → Insert Guest Additions CD image...** ![Insert Guest Additions CD image](04_snapshots/insertcdimage.png)
 3. Run the installer **inside the VM** when prompted.
 4. Reboot the VM.
 5. Enable integration features via:
 
-**Machine → Settings → General → Advanced → Shared Clipboard → Bidirectional
-Devices → Drag and Drop → Bidirectional**
-
-> 📸 ![Integration](04_snapshots/integration.png)
+> 📸 **Machine → Settings → General → Advanced → Shared Clipboard → Bidirectional
+Devices → Drag and Drop → Bidirectional** ![Integration](04_snapshots/integration.png)
 
 ---
 
@@ -47,8 +44,7 @@ Devices → Drag and Drop → Bidirectional**
 - After inserting the CD, open the file manager and run:  
  `VBoxLinuxAdditions.run`
 
-***(Right-click → Open in Terminal → Run with sudo if needed)***
-> 📸 ***(Right-click → Open in Terminal → Run with sudo if needed)*** ![Open in Terminal](04_snapshots/openterminal.png)
+> 📸 **(Right-click → Open in Terminal → Run with sudo if needed)** ![Open in Terminal](04_snapshots/openterminal.png)
 
 > 📸 ![Terminal](04_snapshots/terminal.png)
 
