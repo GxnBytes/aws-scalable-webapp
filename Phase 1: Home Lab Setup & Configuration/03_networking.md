@@ -13,7 +13,7 @@ As part of setting up my project environment, I created a custom NAT Network in 
 7. Set the **IPv4 Prefix** to `10.0.0.0/24`.
 8. Enabled the **DHCP** option.
 9. Clicked **Apply** to save the configuration.
-> 📸 ![Nat Network](04_snapshots/natnetwork.png)
+> 📸 ![Nat Network](04_snapshots/natnetwork1.png)
 ### Outcome
 
 This created a NAT network named `skynet-network` with the subnet `10.0.0.0/24`. DHCP is enabled, allowing virtual machines connected to this network to automatically receive IP addresses.
