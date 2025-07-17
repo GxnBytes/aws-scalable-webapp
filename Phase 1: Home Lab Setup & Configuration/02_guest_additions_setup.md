@@ -21,7 +21,7 @@ Guest Additions were installed and configured for:
 1. Start the VM.
 2. In the **VirtualBox menu bar**, go to:  
 
-> 📸 **Devices → Insert Guest Additions CD image...** ![Insert Guest Additions CD image](04_snapshots/insertcdimage.png)
+> 📸 **Devices → Insert Guest Additions CD image...** ![Insert Guest Additions CD image](img/insertcdimage.png)
 3. Run the installer **inside the VM** when prompted.
 4. Reboot the VM.
 5. Enable integration features via:
