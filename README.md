@@ -29,7 +29,7 @@ The lab includes Windows and Linux systems running Active Directory, Wazuh, Secu
   Versatile Linux desktop, ideal for development workflows. Simulates a software development workstation in an enterprise setting.
 - **Security Onion**  
   Open-source platform for threat detection, log analysis, and intrusion detection. Used for monitoring and responding to network security events.
-- **Ubuntu Server 22.04**  
+- **Ubuntu Server 24.04**  
   Reliable server OS for hosting services like mail, databases, and web applications. Deployed as the internal email server.
 - **Kali Linux**  
   Penetration testing and ethical hacking distro. Equipped with tools for vulnerability scanning, exploitation, and digital forensics.
