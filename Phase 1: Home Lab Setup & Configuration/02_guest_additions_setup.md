@@ -51,8 +51,9 @@ Devices → Drag and Drop → Bidirectional**
 > 📸 ![Open in Terminal](04_snapshots/openterminal.png)
 
 > 📸 ![Terminal](04_snapshots/terminal.png)
-     ```bash
-     sudo ./VBoxLinuxAdditions.run
+
+   ```bash
+   sudo ./VBoxLinuxAdditions.run
 
 - You may need to install required packages beforehand:
     ```bash
