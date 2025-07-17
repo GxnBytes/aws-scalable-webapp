@@ -13,8 +13,8 @@ As part of setting up my project environment, I created a custom NAT Network in 
 7. Set the **IPv4 Prefix** to `10.0.0.0/24`.
 8. Enabled the **DHCP** option.
 9. Clicked **Apply** to save the configuration.
-> 📸 ![Nat Network](04_snapshots/natnetwork1.png)
-> ![Nat Network](04_snapshots/natnetwork2.png)
+> 📸 ![Nat Network](img/natnetwork1.png)
+> ![Nat Network](img/natnetwork2.png)
 ### Outcome
 
 This created a NAT network named `skynet-network` with the subnet `10.0.0.0/24`. DHCP is enabled, allowing virtual machines connected to this network to automatically receive IP addresses.
@@ -33,7 +33,7 @@ Once the `skynet-network` NAT Network was created, I configured each virtual mac
 5. In the **Attached to:** dropdown, select **NAT Network**.
 6. In the **Name** dropdown (next to it), select `skynet-network`.
 7. Click **OK** (or **Apply**) to save the changes.
-> 📸 ![Nat Network](04_snapshots/natnetwork3.png)
+> 📸 ![Nat Network](img/natnetwork3.png)
 ### Outcome
 
 Each VM is now attached to the same NAT Network (`skynet-network`), allowing them to communicate with one another via internal IP addresses managed by the VirtualBox DHCP server.
