@@ -29,7 +29,8 @@ Guest Additions were installed and configured for:
 
 **Machine → Settings → General → Advanced → Shared Clipboard → Bidirectional
 Devices → Drag and Drop → Bidirectional**
-> 📸 ![integration](snapshots/integration.png)
+
+> 📸 ![Integration](snapshots/integration.png)
 
 ---
 
