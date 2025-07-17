@@ -45,7 +45,10 @@ Devices → Drag and Drop → Bidirectional**
 ## 🐧 Ubuntu & Kali Linux VMs
 
 - After inserting the CD, open the file manager and run:  
-`VBoxLinuxAdditions.run`  
+ `VBoxLinuxAdditions.run`
+  ```bash
+  sudo ./VBoxLinuxAdditions.run
+
 (Right-click → Open in Terminal → Run with sudo if needed)
 
 - You may need to install required packages beforehand:
