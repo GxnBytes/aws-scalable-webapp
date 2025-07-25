@@ -38,6 +38,7 @@ VirtualBox is now ready for use. I use it to run virtual machines as part of my 
    ```
 
 <br>
+
 ## ⬇️ Downloading and Setting Up VMs in VirtualBox
 
 Here's how I downloaded the OS ISOs and set up the virtual machines in VirtualBox, following my defined specifications.
