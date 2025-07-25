@@ -41,19 +41,6 @@ The lab includes Windows and Linux systems running Active Directory, Wazuh, Secu
   Penetration testing and ethical hacking distro. Equipped with tools for vulnerability scanning, exploitation, and digital forensics.
 <br>
 
-## Accounts & Passwords
-
-| Account                              | Password        | Host            |
-|--------------------------------------|-----------------|-----------------|
-| Administrator                        | password123!    | ...-dc          |
-| John Doe          | password123!   | ...-win-client  |
-| janed@linux-client                   | password123!   | ...-linux-client|
-| skynet-sec-work                   | password123!   | ...-sec-work    |
-| sec-work@sec-box                     | password123!   | ...-sec-box     |
-| skynet-admin@corp-svr            | password123!   | ...-corp-svr    |
-| attacker@attacker                   | attacker         | attacker        |
-<br>
-
 ## 🛠️ Tools Used
   **🛡️ Enterprise Tools & Defense**
 - **Microsoft Active Directory**  
@@ -74,4 +61,3 @@ The lab includes Windows and Linux systems running Active Directory, Wazuh, Secu
   Network exploitation tool that enables remote command execution via multiple protocols, aiding lateral movement and privilege escalation.
 - **XFreeRDP**  
   Open-source RDP client used to remotely access and control Windows machines for recon and post-exploitation activities.
-<br>
