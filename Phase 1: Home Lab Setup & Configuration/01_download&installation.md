@@ -33,9 +33,10 @@ I installed **VirtualBox version 7.0.26r168464** by downloading the `.deb` packa
    virtualbox --help
 
 VirtualBox is now ready for use. I use it to run virtual machines as part of my cybersecurity homelab setup.
-   ```
-   ✅ Version installed: VirtualBox 7.0.26r168464 on Ubuntu Linux
-   ``` 
+      ```
+      ✅ Version installed: VirtualBox 7.0.26r168464 on Ubuntu Linux
+      ``` 
+
 
 ### ⬇️ Downloading and Setting Up VMs in VirtualBox
 
