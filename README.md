@@ -21,7 +21,6 @@ The lab includes Windows and Linux systems running Active Directory, Wazuh, Secu
 - Investigated simulated security incidents and developed response procedures
 - Explored log collection, parsing, and analysis for threat detection and insights
 <br>
-
 <!--
 ### Network Topologies
 📸 ![Network Topologies](screenshots/network_topologies.png)
