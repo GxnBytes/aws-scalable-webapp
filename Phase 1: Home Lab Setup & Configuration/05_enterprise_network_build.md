@@ -13,7 +13,7 @@
 | Account                              | Password        | Host            |
 |--------------------------------------|-----------------|-----------------|
 | Administrator                        | password123!    | ...-dc          |
-| John Doe          | password123!   | ...-win-client  |
+| Johnd@corp.skynet-dc.com          | password123!   | ...-win-client  |
 | janed@linux-client                   | password123!   | ...-linux-client|
 | skynet-sec-work                   | password123!   | ...-sec-work    |
 | sec-work@sec-box                     | password123!   | ...-sec-box     |
