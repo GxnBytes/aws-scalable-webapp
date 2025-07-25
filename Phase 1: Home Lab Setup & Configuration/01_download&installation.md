@@ -35,10 +35,9 @@ I installed **VirtualBox version 7.0.26r168464** by downloading the `.deb` packa
 VirtualBox is now ready for use. I use it to run virtual machines as part of my cybersecurity homelab setup.
 
  ✅ Version installed: VirtualBox 7.0.26r168464 on Ubuntu Linux
+ 
 
-
-```
-### ⬇️ Downloading and Setting Up VMs in VirtualBox
+## ⬇️ Downloading and Setting Up VMs in VirtualBox
 
 I've outlined the process I followed to download the necessary operating system ISOs and create the virtual machines in VirtualBox, based on the specifications I defined.
 
@@ -71,4 +70,3 @@ For each VM specified in my table, I followed these general steps within Virtual
 10. Finally, to **Install the Operating System**, I selected the newly created VM in the VirtualBox Manager and clicked **"Start"**. I then followed the on-screen prompts to install the operating system using the mounted ISO.
 
 I repeated these steps for every virtual machine required for my setup.
-```
