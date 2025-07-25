@@ -25,6 +25,7 @@ The lab includes Windows and Linux systems running Active Directory, Wazuh, Secu
 ### Network Topologies
 📸 ![Network Topologies](screenshots/network_topologies.png)
 -->
+
 ## 🖥️ Operating Systems
 - **Windows Server 2025**  
   Enterprise-grade OS for directory services and identity management. Serves as the central domain controller for network authentication and connectivity.
