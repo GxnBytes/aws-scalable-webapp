@@ -2,8 +2,8 @@
 
 - Skynet is fake business environment that builds software for consumers.
 - Skynet is a Windows-native.
-- Future development:
-   - Are looking to build an on-premise/cloud hybrid infrastruture.
-   - Grow their security operations center & threat detection and response capabilties.
-   - Build dedicated security analysis lab.
+- Future Developments:
+   - Are looking to build an on-premise/cloud hybrid infrastructure.
+   - Grow their Security Operations Center & Threat Detection and Response capabilties.
+   - Build dedicated Security Analysis Lab.
    - simulate various cyber-attacks. 
