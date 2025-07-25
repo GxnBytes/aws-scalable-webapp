@@ -1,4 +1,4 @@
-# Skynet Corp. network setup
+# Skynet Corp. Network Setup
 
 - Skynet is fake business environment that builds software for consumers.
 - Skynet is a Windows-native.
