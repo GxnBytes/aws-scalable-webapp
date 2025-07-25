@@ -19,6 +19,7 @@ The lab includes Windows and Linux systems running Active Directory, Wazuh, Secu
 ### [Phase 1: Home Lab Setup & Configuration](https://github.com/Genvarelli/Threat-Detection-Monitoring-Lab/tree/main/Phase%201%3A%20Home%20Lab%20Setup%20%26%20Configuration)
 ### [Phase 2: SIEM Alerts & Dashboards](https://github.com/Genvarelli/Threat-Detection-Monitoring-Lab/tree/main/Phase%202%3A%20SIEM%20Alerts%20%26%20Dashboards)
 ### [Phase 3: Incident Response & Analysis](https://github.com/Genvarelli/Threat-Detection-Monitoring-Lab/tree/main/Phase%203%3A%20Incident%20Response%20%26%20Analysis)
+<br>
 
 ## 🖥️ Operating Systems
 - **Windows Server 2025**  
