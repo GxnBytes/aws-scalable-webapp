@@ -7,6 +7,13 @@ This project is a multi-VM cyber security lab designed to simulate enterprise in
 The lab includes Windows and Linux systems running Active Directory, Wazuh, Security Onion, and MailHog. Realistic attack scenarios are simulated using offensive tools such as Hydra, Evil-WinRM, NetExec, and XFreeRDP to test detection capabilities. Custom SIEM rules and alerts are developed to identify brute-force attempts, privilege escalation, and lateral movement. Logs are analysed, and incidents documented to improve blue team techniques and defensive visibility.
 <br>
 <br>
+
+## Project Phases
+
+### [Phase 1: Home Lab Setup & Configuration](https://github.com/Genvarelli/Threat-Detection-Monitoring-Lab/tree/main/Phase%201%3A%20Home%20Lab%20Setup%20%26%20Configuration)
+### [Phase 2: SIEM Alerts & Dashboards](https://github.com/Genvarelli/Threat-Detection-Monitoring-Lab/tree/main/Phase%202%3A%20SIEM%20Alerts%20%26%20Dashboards)
+### [Phase 3: Incident Response & Analysis](https://github.com/Genvarelli/Threat-Detection-Monitoring-Lab/tree/main/Phase%203%3A%20Incident%20Response%20%26%20Analysis)
+
 ## Skills Learned
 - Gained hands-on experience in security monitoring within a lab environment
 - Configured and deployed network traffic analysis tools
@@ -99,10 +106,3 @@ Below are the specifications for each virtual machine. These are important for s
 - **XFreeRDP**  
   Open-source RDP client used to remotely access and control Windows machines for recon and post-exploitation activities.
 <br>
-
-
-## Project Phases
-
-### [Phase 1: Home Lab Setup & Configuration](https://github.com/Genvarelli/Threat-Detection-Monitoring-Lab/tree/main/Phase%201%3A%20Home%20Lab%20Setup%20%26%20Configuration)
-### [Phase 2: SIEM Alerts & Dashboards](https://github.com/Genvarelli/Threat-Detection-Monitoring-Lab/tree/main/Phase%202%3A%20SIEM%20Alerts%20%26%20Dashboards)
-### [Phase 3: Incident Response & Analysis](https://github.com/Genvarelli/Threat-Detection-Monitoring-Lab/tree/main/Phase%203%3A%20Incident%20Response%20%26%20Analysis)
