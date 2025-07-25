@@ -41,23 +41,6 @@ The lab includes Windows and Linux systems running Active Directory, Wazuh, Secu
   Penetration testing and ethical hacking distro. Equipped with tools for vulnerability scanning, exploitation, and digital forensics.
 <br>
 
-
-## ⚙️ Virtual Machines (VMs)
-
-For virtualization, either **VirtualBox** or **VMware Workstation Pro** can be used as the hypervisor.
-
-Below are the specifications for each virtual machine. These are important for setup:
-
-| VM Name             | Operating System        | Specs           | Storage (Minimum) |
-|---------------------|------------------------|-----------------|-------------------|
-| `skynet-dc`      | Windows Server 2025    | 2 CPU / 4096 MB | 50 GB             |
-| `skynet-win-client` | Windows 11 Enterprise | 2 CPU / 4096 MB | 80 GB             |
-| `skynet-linux-client` | Ubuntu 24.04 Desktop  | 1 CPU / 3500 MB | 80 GB             |
-| `skynet-sec-work` | Security Onion          | 1 CPU / 2048 MB | 55 GB             |
-| `skynet-sec-box`  | Ubuntu 24.04 Desktop    | 2 CPU / 4096 MB | 80 GB             |
-| `skynet-corp-svr` | Ubuntu Server 24.04     | 1 CPU / 2048 MB | 25 GB             |
-| `skynet-attacker` | Kali Linux 2024       | 1 CPU / 2048 MB | 55 GB             |
-
 ## Hosts
 
 | Hostname \[`skynet-…`\]           | IP Address                 | Function                              |
