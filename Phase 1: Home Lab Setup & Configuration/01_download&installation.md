@@ -1,7 +1,5 @@
 # 🛠️ Host Machine Setup: Native Linux with VirtualBox
 
-## Why I Switched from Windows
-
 I removed Windows from my machine because it felt bulky and inefficient for my cybersecurity homelab. Running a native Linux system (Ubuntu) gave me better performance, more control, and easier access to open-source security tools. It also helped me sharpen my Linux skills, which are essential in real-world cybersecurity environments.
 
 ---
