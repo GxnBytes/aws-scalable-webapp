@@ -74,7 +74,7 @@ The lab includes Windows and Linux systems running Active Directory, Wazuh, Secu
 
 | Account                              | Password        | Host            |
 |--------------------------------------|-----------------|-----------------|
-| Administrator                        | password123!    | ...-dc          |
+| Administrator                        | Mr.Robot1    | ...-dc          |
 | johnd@corp.skynet-dc.com          | password123!   | ...-win-client  |
 | janed@linux-client                   | password123!   | ...-linux-client|
 | skynet-sec-work                   | password123!   | ...-sec-work    |
