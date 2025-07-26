@@ -58,23 +58,23 @@ I made sure to get the official installation ISO files for each operating system
 
 ### Step 2: Setting Up Virtual Machines in VirtualBox
 
-To create each VM as listed in my table, I followed these steps in VirtualBox:
+Here’s how I set up each VM listed in the table:
 
-1. **Open VirtualBox** and click **"New"** to start a new VM.
-2. Enter the **VM Name** (e.g., `skynet-dc`).
-3. Choose a **Folder** on your computer to store the VM's files.
-4. Select the **ISO Image** for the appropriate OS.
-5. VirtualBox will usually auto-detect the **OS Type**. If not, select it manually (e.g., "Microsoft Windows" and "Windows 11 (64-bit)").
-6. Set the **Base Memory & Processors** based on the specs in the table (e.g., 4096 MB RAM and 2 CPUs for `skynet-dc`).
-7. For the **Hard Disk**, choose "Create a virtual hard disk now," then **uncheck "Pre-allocate Full Size"** for dynamic allocation. Set the size based on the table’s **Storage (Minimum)** value (e.g., 50 GB for `skynet-dc`).
-8. **Network Setup**:
-   - After creating the VM, but **before starting it**, go to **Settings > Network**.
-   - Set **Adapter 1** to **"NAT"** for internet access.
-   - Add additional adapters with **"Internal Network"** for communication between VMs (e.g., `skynet-network`).
-9. Click **"Finish"** to complete the VM setup.
-10. To **Install the OS**, select the VM, click **"Start"**, and follow the on-screen prompts using the mounted ISO.
+1. **Open VirtualBox** and click on **"New"** to create a new VM.
+2. Name your VM exactly as listed in the table (e.g., `skynet-dc`).
+3. Choose a **Folder** on your computer to save the VM files.
+4. For the **ISO Image**, click the arrow and select the OS you downloaded.
+5. VirtualBox will usually guess the **OS Type** for you. If it doesn’t, manually select the correct one (e.g., "Microsoft Windows" and "Windows 11 (64-bit)").
+6. Set the **Base Memory & Processors** according to the specs in the table (e.g., `skynet-dc` gets 4096 MB of RAM and 2 CPUs).
+7. For the **Hard Disk**, select "Create a virtual hard disk now," then make sure to **uncheck "Pre-allocate Full Size"** for dynamic allocation. Set the disk size based on the **Storage (Minimum)** in the table (e.g., 50 GB for `skynet-dc`).
+8. **Network Setup**: 
+   - Once your VM is created, but **before starting it**, go to **Settings > Network**.
+   - Set **Adapter 1** to **"NAT"** so the VM can access the internet.
+   - If you need the VMs to communicate with each other, add extra network adapters set to **"Internal Network"** and give them a consistent name (e.g., `skynet-network`).
+9. Click **"Finish"** to complete the setup.
+10. To **install the OS**, select the VM, click **"Start"**, and follow the on-screen instructions using the mounted ISO.
 
-Repeat these steps for each VM you need to set up.
+Repeat this process for each VM you need to set up.
 
 ### VM Specifications:
 
