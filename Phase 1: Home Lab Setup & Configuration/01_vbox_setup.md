@@ -1,12 +1,4 @@
-# 🛠️ Host Machine Setup: Native Linux with VirtualBox
-
-I removed Windows from my machine because it felt bulky and inefficient for my cybersecurity homelab. Running a native Linux system (Ubuntu) gave me better performance, more control, and easier access to open-source security tools. It also helped me sharpen my Linux skills, which are essential in real-world cybersecurity environments.
-
----
-
-<br>
-
-## 🧰 Installing VirtualBox on Ubuntu (Downloaded from Official Site)
+# 🧰 Installing VirtualBox on Ubuntu (Downloaded from Official Site)
 
 I installed **VirtualBox version 7.0.26r168464** by downloading the `.deb` package directly from the official Oracle VirtualBox website.
 
