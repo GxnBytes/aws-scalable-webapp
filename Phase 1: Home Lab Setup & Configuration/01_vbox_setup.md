@@ -83,8 +83,6 @@ Repeat this process for each VM you need to set up.
 
 # 📦 Enabling Full Integration Features
 
-## Purpose
-
 To enable smooth VM usability by turning on:
 
 - ✅ Full screen support  
