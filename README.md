@@ -81,4 +81,16 @@ The lab includes Windows and Linux systems running Active Directory, Wazuh, Secu
 | sec-work@sec-box                     | password123!   | ...-sec-box     |
 | skynet-admin@corp-svr            | password123!   | ...-corp-svr    |
 | attacker@attacker                   | attacker         | attacker        |
+
+## Hosts
+
+| Hostname \[`skynet-…`\]           | IP Address                 | Function                              |
+|--------------------------------------|-----------------------------|----------------------------------------|
+| -dc (corp.skynet-dc.com)          | 10.0.0.5                   | Domain Controller (DNS, DHCP, SSO)     |
+| -admin                               | 10.0.0.8                   | Corporate Server                        |
+| -sec-box                             | 10.0.0.10                  | Dedicated Security Server              |
+| -sec-work                            | 10.0.0.103 or (dynamic)    | Security Playground                    |
+| -win-client                          | 10.0.0.100 or (dynamic)    | Windows Workstation                    |
+| -linux-client                        | 10.0.0.101 or (dynamic)    | Linux Desktop Workstation             |
+| attacker                             | dynamic                    | Attacker Environment                   |
 <br>
