@@ -1,96 +1,98 @@
-# 🚨 Threat Detection & Monitoring Lab 
+# 🚨 Threat Detection & Monitoring Lab  
 ![Status](https://img.shields.io/badge/status-In%20Development-yellow)
 
-## Project Overview
-This project is a multi-VM cyber security lab designed to simulate enterprise infrastructure and explore threat detection, monitoring, and incident response in a controlled environment.
+## 📝 Project Overview  
+This project simulates a multi-VM enterprise infrastructure to explore **threat detection**, **monitoring**, and **incident response** in a controlled lab environment. It includes various Windows and Linux systems, integrated with security tools like **Wazuh**, **Security Onion**, and **MailHog**. The lab simulates real-world attack scenarios using offensive tools (e.g., **Hydra**, **Evil-WinRM**) to test detection capabilities and improve defensive strategies.
 
-The lab includes Windows and Linux systems running Active Directory, Wazuh, Security Onion, and MailHog. Realistic attack scenarios are simulated using offensive tools such as Hydra, Evil-WinRM, NetExec, and XFreeRDP to test detection capabilities. Custom SIEM rules and alerts are developed to identify brute-force attempts, privilege escalation, and lateral movement. Logs are analysed, and incidents documented to improve blue team techniques and defensive visibility.
-<br>
+### Key Features:
+- **Skynet**: Simulated enterprise environment with Windows-native systems.
+- **Future Goals**:  
+  - Build a **hybrid on-premise/cloud infrastructure**.
+  - Expand the **SOC (Security Operations Centre)** and **Threat Detection** capabilities.
+  - Develop a **dedicated Security Analysis Lab**.
+  - Simulate various **cyber-attacks** for testing and training purposes.
 
-## Skills Learned
-- Gained hands-on experience in security monitoring within a lab environment
-- Configured and deployed network traffic analysis tools
-- Created alerts and rules for detecting suspicious activity
-- Investigated simulated security incidents and developed response procedures
-- Explored log collection, parsing, and analysis for threat detection and insights
+---
 
-## Project Phases
+## 💡 Skills Learned
+- Security monitoring in a lab environment
+- Configuring network traffic analysis tools
+- Creating custom SIEM rules and alerts
+- Investigating simulated security incidents
+- Log collection, parsing, and analysis
+
+---
+
+## 📅 Project Phases
 
 ### [Phase 1: Home Lab Setup & Configuration](https://github.com/Genvarelli/Threat-Detection-Monitoring-Lab/tree/main/Phase%201%3A%20Home%20Lab%20Setup%20%26%20Configuration)
 ### [Phase 2: SIEM Alerts & Dashboards](https://github.com/Genvarelli/Threat-Detection-Monitoring-Lab/tree/main/Phase%202%3A%20SIEM%20Alerts%20%26%20Dashboards)
 ### [Phase 3: Incident Response & Analysis](https://github.com/Genvarelli/Threat-Detection-Monitoring-Lab/tree/main/Phase%203%3A%20Incident%20Response%20%26%20Analysis)
-<br>
+
+---
 
 ## 🖥️ Operating Systems
-- **Windows Server 2025**  
-  Enterprise-grade OS for directory services and identity management. Serves as the central domain controller for network authentication and connectivity.
+- **Windows Server 2025**: Central domain controller for enterprise services (DNS, DHCP, SSO).
+- **Windows 11 Enterprise**: Simulates a corporate desktop environment.
+- **Ubuntu Desktop 24.04**: Software development workstation for a Linux environment.
+- **Security Onion**: Monitoring platform for intrusion detection and log analysis.
+- **Ubuntu Server 24.04**: Hosts internal services like mail and databases.
+- **Kali Linux**: Used for penetration testing and ethical hacking.
 
-- **Windows 11 Enterprise**  
-  Business-focused desktop OS optimized for productivity. Used to simulate a typical corporate end-user environment.
-- **Ubuntu Desktop 24.04**  
-  Versatile Linux desktop, ideal for development workflows. Simulates a software development workstation in an enterprise setting.
-- **Security Onion**  
-  Open-source platform for threat detection, log analysis, and intrusion detection. Used for monitoring and responding to network security events.
-- **Ubuntu Server 24.04**  
-  Reliable server OS for hosting services like mail, databases, and web applications. Deployed as the internal email server.
-- **Kali Linux**  
-  Penetration testing and ethical hacking distro. Equipped with tools for vulnerability scanning, exploitation, and digital forensics.
+---
 
 ## 🛠️ Tools Used
-  **🛡️ Enterprise Tools & Defense**
-- **Microsoft Active Directory**  
-  Centralized directory service for managing users, devices, and permissions in a Windows-based network environment.
-- **Wazuh**  
-  Open-source security platform offering intrusion detection, log monitoring, vulnerability detection, and compliance reporting.
-- **MailHog**  
-  Lightweight email testing tool that captures outgoing messages via a fake SMTP server. Emails are viewable through a web UI or API, without sending to real inboxes.
 
-**⚔️ Offensive Security Tools**
-- **Evil-WinRM**  
-  Ruby-based WinRM client used for post-exploitation on Windows systems. Supports remote command execution and data extraction.
-- **Hydra**  
-  Fast, flexible tool for brute-force and dictionary attacks across various network services like SSH, HTTP, and FTP.
-- **SecLists**  
-  Curated collection of wordlists and payloads used during reconnaissance, brute-forcing, and exploitation stages.
-- **NetExec**  
-  Network exploitation tool that enables remote command execution via multiple protocols, aiding lateral movement and privilege escalation.
-- **XFreeRDP**  
-  Open-source RDP client used to remotely access and control Windows machines for recon and post-exploitation activities.
+### 🛡️ Defence Tools
+- **Microsoft Active Directory**: Manages users, devices, and permissions.
+- **Wazuh**: Intrusion detection and log monitoring.
+- **MailHog**: Captures and tests outgoing emails in a controlled environment.
 
+### ⚔️ Offensive Security Tools
+- **Evil-WinRM**: Post-exploitation tool for Windows systems.
+- **Hydra**: Brute-force tool for various protocols.
+- **SecLists**: Curated wordlists for brute-forcing and exploitation.
+- **NetExec**: Network exploitation tool for lateral movement.
+- **XFreeRDP**: Remote access for post-exploitation.
 
-### VM Specifications:
+---
 
-| VM Name              | Operating System       | Specs           | Storage (Minimum) |
-|----------------------|------------------------|-----------------|-------------------|
-| `skynet-dc`          | Windows Server 2025    | 2 CPU / 4096 MB | 50 GB             |
-| `skynet-win-client`  | Windows 11 Enterprise  | 2 CPU / 4096 MB | 80 GB             |
-| `skynet-linux-client`| Ubuntu 24.04 Desktop   | 1 CPU / 3500 MB | 80 GB             |
-| `skynet-sec-work`    | Security Onion         | 1 CPU / 2048 MB | 55 GB             |
-| `skynet-sec-box`     | Ubuntu 24.04 Desktop   | 2 CPU / 4096 MB | 80 GB             |
-| `skynet-corp-svr`    | Ubuntu Server 24.04    | 1 CPU / 2048 MB | 25 GB             |
-| `skynet-attacker`    | Kali Linux 2024        | 1 CPU / 2048 MB | 55 GB             |
+## 🖥️ VM Specifications  
 
-## Accounts & Passwords
+| VM Name               | OS                        | CPU / RAM   | Storage (Min) |
+|-----------------------|---------------------------|-------------|---------------|
+| `skynet-dc`           | Windows Server 2025       | 2 CPU / 4GB | 50 GB         |
+| `skynet-win-client`   | Windows 11 Enterprise     | 2 CPU / 4GB | 80 GB         |
+| `skynet-linux-client` | Ubuntu 24.04 Desktop      | 1 CPU / 3.5GB | 80 GB         |
+| `skynet-sec-work`     | Security Onion            | 1 CPU / 2GB | 55 GB         |
+| `skynet-sec-box`      | Ubuntu 24.04 Desktop      | 2 CPU / 4GB | 80 GB         |
+| `skynet-corp-svr`     | Ubuntu Server 24.04       | 1 CPU / 2GB | 25 GB         |
+| `skynet-attacker`     | Kali Linux 2024           | 1 CPU / 2GB | 55 GB         |
 
-| Account                              | Password        | Host            |
-|--------------------------------------|-----------------|-----------------|
-| Administrator                        | Mr.Robot1    | ...-dc          |
-| johnd@corp.skynet-dc.com          | password123!   | ...-win-client  |
-| janed@linux-client                   | password123!   | ...-linux-client|
-| skynet-sec-work                   | password123!   | ...-sec-work    |
-| sec-work@sec-box                     | password123!   | ...-sec-box     |
-| skynet-admin@corp-svr            | password123!   | ...-corp-svr    |
-| attacker@attacker                   | attacker         | attacker        |
+---
 
-## Hosts
+## 🔑 Accounts & Passwords
 
-| Hostname \[`skynet-…`\]           | IP Address                 | Function                              |
-|--------------------------------------|-----------------------------|----------------------------------------|
-| -dc (corp.skynet-dc.com)          | 10.0.0.5                   | Domain Controller (DNS, DHCP, SSO)     |
-| -admin                               | 10.0.0.8                   | Corporate Server                        |
-| -sec-box                             | 10.0.0.10                  | Dedicated Security Server              |
-| -sec-work                            | 10.0.0.103 or (dynamic)    | Security Playground                    |
-| -win-client                          | 10.0.0.100 or (dynamic)    | Windows Workstation                    |
-| -linux-client                        | 10.0.0.101 or (dynamic)    | Linux Desktop Workstation             |
-| attacker                             | dynamic                    | Attacker Environment                   |
-<br>
+| Account                       | Password        | Host            |
+|-------------------------------|-----------------|-----------------|
+| `Administrator`                | Mr.Robot1       | ...-dc          |
+| `johnd@corp.skynet-dc.com`     | password123!    | ...-win-client  |
+| `janed@linux-client`           | password123!    | ...-linux-client|
+| `skynet-sec-work`              | password123!    | ...-sec-work    |
+| `sec-work@sec-box`             | password123!    | ...-sec-box     |
+| `skynet-admin@corp-svr`        | password123!    | ...-corp-svr    |
+| `attacker@attacker`            | attacker        | attacker        |
+
+---
+
+## 🌐 Hosts
+
+| Hostname                       | IP Address       | Function                             |
+|---------------------------------|------------------|--------------------------------------|
+| `skynet-dc` (corp.skynet-dc.com) | 10.0.0.5         | Domain Controller (DNS, DHCP, SSO)  |
+| `skynet-admin`                 | 10.0.0.8         | Corporate Server                     |
+| `skynet-sec-box`               | 10.0.0.10        | Security Server                      |
+| `skynet-sec-work`              | 10.0.0.103 (or dynamic) | Security Testing Workstation     |
+| `skynet-win-client`            | 10.0.0.100 (or dynamic) | Windows Workstation              |
+| `skynet-linux-client`          | 10.0.0.101 (or dynamic) | Linux Workstation                 |
+| `skynet-attacker`              | Dynamic          | Attacker VM                         |
