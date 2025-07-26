@@ -56,36 +56,38 @@ I made sure to get the official installation ISO files for each operating system
 
 ---
 
-### Step 2: Created Virtual Machines in VirtualBox
+### Step 2: Setting Up Virtual Machines in VirtualBox
 
-For each VM listed in my table, I followed these steps in VirtualBox:
+To create each VM as listed in my table, I followed these steps in VirtualBox:
 
-1.  I **opened VirtualBox** and clicked **"New"** to start creating a new VM.
-2.  I entered the **VM Name** exactly as specified (e.g., `skynet-dc`).
-3.  I picked a **Folder** on my computer to save the VM's files.
-4.  For **ISO Image**, I clicked the arrow and selected the downloaded ISO file for the correct OS.
-5.  VirtualBox usually guessed the **Type** of OS. If not, I picked it manually (e.g., "Microsoft Windows" and "Windows 11 (64-bit)").
-6.  I set the **Base Memory & Processors** according to the `Specs` in my table (e.g., `skynet-dc` got 4096 MB memory and 2 CPUs).
-7.  For the **Hard Disk**, I chose "Create a virtual hard disk now" and **unchecked "Pre-allocate Full Size"** for dynamic allocation. I set the size to the `Storage (Minimum)` from my table (e.g., 50 GB for `skynet-dc`).
-8.  **Important Network Setup**: After creating the VM, but **before starting it**, I went to its **Settings > Network**.
-    * I set **Adapter 1** to **"NAT"** to give the VM internet access.
-    * For VMs to talk to each other, I added extra adapters set to **"Internal Network"**, giving them a consistent name (e.g., `skynet-network`).
-9.  I reviewed everything and then clicked **"Finish"** (or "Create").
-10. To **Install the OS**, I selected the VM in VirtualBox Manager and clicked **"Start"**. Then, I just followed the on-screen installation prompts using the mounted ISO.
+1. **Open VirtualBox** and click **"New"** to start a new VM.
+2. Enter the **VM Name** (e.g., `skynet-dc`).
+3. Choose a **Folder** on your computer to store the VM's files.
+4. Select the **ISO Image** for the appropriate OS.
+5. VirtualBox will usually auto-detect the **OS Type**. If not, select it manually (e.g., "Microsoft Windows" and "Windows 11 (64-bit)").
+6. Set the **Base Memory & Processors** based on the specs in the table (e.g., 4096 MB RAM and 2 CPUs for `skynet-dc`).
+7. For the **Hard Disk**, choose "Create a virtual hard disk now," then **uncheck "Pre-allocate Full Size"** for dynamic allocation. Set the size based on the table’s **Storage (Minimum)** value (e.g., 50 GB for `skynet-dc`).
+8. **Network Setup**:
+   - After creating the VM, but **before starting it**, go to **Settings > Network**.
+   - Set **Adapter 1** to **"NAT"** for internet access.
+   - Add additional adapters with **"Internal Network"** for communication between VMs (e.g., `skynet-network`).
+9. Click **"Finish"** to complete the VM setup.
+10. To **Install the OS**, select the VM, click **"Start"**, and follow the on-screen prompts using the mounted ISO.
 
-I repeated these steps for every VM I needed to set up.
+Repeat these steps for each VM you need to set up.
 
-Below are the specifications for each virtual machine. These are important for setup:
+### VM Specifications:
 
-| VM Name             | Operating System        | Specs           | Storage (Minimum) |
-|---------------------|------------------------|-----------------|-------------------|
-| `skynet-dc`      | Windows Server 2025    | 2 CPU / 4096 MB | 50 GB             |
-| `skynet-win-client` | Windows 11 Enterprise | 2 CPU / 4096 MB | 80 GB             |
-| `skynet-linux-client` | Ubuntu 24.04 Desktop  | 1 CPU / 3500 MB | 80 GB             |
-| `skynet-sec-work` | Security Onion          | 1 CPU / 2048 MB | 55 GB             |
-| `skynet-sec-box`  | Ubuntu 24.04 Desktop    | 2 CPU / 4096 MB | 80 GB             |
-| `skynet-corp-svr` | Ubuntu Server 24.04     | 1 CPU / 2048 MB | 25 GB             |
-| `skynet-attacker` | Kali Linux 2024       | 1 CPU / 2048 MB | 55 GB             |
+| VM Name              | Operating System       | Specs           | Storage (Minimum) |
+|----------------------|------------------------|-----------------|-------------------|
+| `skynet-dc`          | Windows Server 2025    | 2 CPU / 4096 MB | 50 GB             |
+| `skynet-win-client`  | Windows 11 Enterprise  | 2 CPU / 4096 MB | 80 GB             |
+| `skynet-linux-client`| Ubuntu 24.04 Desktop   | 1 CPU / 3500 MB | 80 GB             |
+| `skynet-sec-work`    | Security Onion         | 1 CPU / 2048 MB | 55 GB             |
+| `skynet-sec-box`     | Ubuntu 24.04 Desktop   | 2 CPU / 4096 MB | 80 GB             |
+| `skynet-corp-svr`    | Ubuntu Server 24.04    | 1 CPU / 2048 MB | 25 GB             |
+| `skynet-attacker`    | Kali Linux 2024        | 1 CPU / 2048 MB | 55 GB             |
+<br>
 
 # 📦 Enabling Full Integration Features
 
