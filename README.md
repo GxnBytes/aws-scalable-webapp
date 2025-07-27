@@ -76,11 +76,11 @@ This project simulates a multi-VM enterprise infrastructure to explore **threat 
 | Account                       | Password        | Host            |
 |-------------------------------|-----------------|-----------------|
 | `Administrator`                | Mr.Robot1       | ...-dc          |
-| `johnd@corp.skynet-dc.com`     | password123!    | ...-win-client  |
-| `janed@linux-client`           | password123!    | ...-linux-client|
-| `skynet-sec-work`              | password123!    | ...-sec-work    |
-| `sec-work@sec-box`             | password123!    | ...-sec-box     |
-| `skynet-admin@corp-svr`        | password123!    | ...-corp-svr    |
+| `johnd@corp.skynet-dc.com`     | @password123!    | ...-win-client  |
+| `janed@linux-client`           | @password123!    | ...-linux-client|
+| `skynet-sec-work`              | @password123!    | ...-sec-work    |
+| `sec-work@sec-box`             | @password123!    | ...-sec-box     |
+| `skynet-admin@corp-svr`        | @password123!    | ...-corp-svr    |
 | `attacker@attacker`            | attacker        | attacker        |
 
 ---
