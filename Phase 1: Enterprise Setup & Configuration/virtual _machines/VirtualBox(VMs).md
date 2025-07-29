@@ -66,9 +66,15 @@ Select NAT Networks ➔ “Create”.
 
 ![Nat Network](imgs/natnetwork2.jpg)
 
-At the bottom, name the NatNetwork `skynet-network` and choose an IPv4 prefix, refer to the Project Overview guide for more detail on IPv4 prefixes. Select “Apply” to save changes. 
+At the bottom, name the NatNetwork `skynet-network` and choose an IPv4 prefix, refer to the Project Overview guide for more detail on IPv4 prefixes. Select “Apply” to save changes. Set the **IPv4 Prefix** to `10.0.0.0/24`.
+8. Enable the **DHCP** option to allow automatic IP assignment.
+9. Click **Apply** to save the configuration.
 
 ![Nat Network](imgs/natnetwork3.png)
+
+### Outcome:
+
+This process created a NAT network named `skynet-network` with the subnet `10.0.0.0/24`. DHCP is enabled, meaning any virtual machines connected to this network will automatically receive an IP address.
 
 > 💡 **Note**: By default, the `skynet-network` NAT Network will be selected for all newly provisioned Virtual Machines.
 
