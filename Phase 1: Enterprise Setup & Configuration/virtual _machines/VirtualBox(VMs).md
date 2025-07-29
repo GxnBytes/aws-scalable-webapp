@@ -141,11 +141,16 @@ When the virtual machine starts, you'll see a prompt to press a key. Press any l
 ![Boot](imgs/boot.jpg)
 
 ---
-## 📸 Snapshots During Setup
+## 📸 Virtual Machine Snapshot
 
-As part of configuring the virtual machines for this project, I will take **VirtualBox snapshots** at key stages. This helps me save the current state of each VM before making significant changes, ensuring I can revert to a stable configuration if needed.
+A snapshot saves the exact state of a virtual machine at a specific point in time, including its disk, memory, and hardware settings. This allows you to revert back to that state if needed.
+
+In VirtualBox, select the virtual machine, then click Take to create a snapshot.
 
 ![Snapshots](imgs/snapshots.png)
+![Snapshots](imgs/snapshot1.jpg)
+
+Title the snapshot with something descriptive so you can recall what configurations were made up until this point.
 
 ### Benefits of Taking Snapshots:
 - 🛠️ **Experiment Safely**: Allows me to experiment with configurations without worrying about breaking the system.
