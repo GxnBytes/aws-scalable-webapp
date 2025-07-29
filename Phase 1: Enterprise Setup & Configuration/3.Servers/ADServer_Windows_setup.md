@@ -263,41 +263,37 @@ Even though static IPs are mostly used, DHCP is configured for flexibility.
 
 These accounts allow users to sign into domain-joined machines.
 
-### Step 1: Open AD Users and Computers
+Open AD Users and Computers
 
 1. In **Server Manager**, go to **Tools > Active Directory Users and Computers**  
    ![Tools](imgs/tools.png)
 
 2. Expand the domain tree ➔ Select **Users**
 
----
+Create User – John Doe
 
-### Step 2: Create User – John Doe
-
-1. Right-click **Users** ➔ **New > User**  
+3. Right-click **Users** ➔ **New > User**  
    ![Users](imgs/users.png)
 
-2. Fill in:
+4. Fill in:
    - First Name: John
    - Last Name: Doe
    - Logon Name: `john.doe`  
      ![Users](imgs/user1.png)
 
-3. Password settings:
+5. Password settings:
    - Uncheck: "User must change password at next logon"
    - Check: "User cannot change password"
 
-4. Use the password from the project overview ➔ Click **Next** and **Finish**
+Create User – Jane Doe
 
----
-
-### Step 3: Create User – Jane Doe
-
-Repeat the steps above:
+6. Repeat the steps above:
 - First Name: Jane
 - Last Name: Doe
 - Logon Name: `jane.doe`  
   ![Users Created](imgs/users_created.png)
+
+Use the password from the project overview ➔ Click **Next** and **Finish**
 
 ---
 
