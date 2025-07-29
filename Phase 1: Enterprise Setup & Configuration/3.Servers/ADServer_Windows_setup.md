@@ -106,47 +106,55 @@ The login screen will appear.
 
 If on VirtualBox, navigate to the top of VirtualBox, go to **“Input” ➔ “Keyboard” ➔ “Insert Ctrl-Alt-Del”** to open the login prompt. 
 
-2. Confirmed **Server Manager** loaded successfully.
-3. Disabled screen timeout:
-   - Went to **Settings > Power & Battery > Screen Timeout** → set to **Never**
+![Input](imgs/input.jpg)
 
-4. Disabled **Ctrl+Alt+Del** login requirement:
-   - Navigated to `Computer Configuration > Windows Settings > Security Settings > Local Policies > Security Options`
-   - Enabled **"Interactive login: Do not require Ctrl+Alt+Del"**
+After signing in, you should see “Server Manager” Window. You can exit out of the dialog box to try Azure Arc.
 
-   ![Interactive Login](img/ad8.png)
-
-5. Enabled full-screen, clipboard sharing, and drag-and-drop:
-   - Inserted **Guest Additions CD Image** via VirtualBox
-   - Ran the installer inside the VM
-   - Rebooted and enabled features under **Settings > General > Advanced**
-
-   ![Integration Features](img/integration.png)
+![Server Manager](imgs/servermanager.jpg)
 
 ---
 
-## Server Configuration
+### Disabled screen timeout:
+   - Went to **Settings > Power & Battery > Screen Timeout** → set to **Never**
 
-### Step 1: Assign Static IP Address
+Disabl **Ctrl+Alt+Del** login requirement:
+   - Navigated to `Computer Configuration > Windows Settings > Security Settings > Local Policies > Security Options`
+   - Enabled **"Interactive login: Do not require Ctrl+Alt+Del"**
 
-1. Opened **Control Panel > Network and Sharing Centre > Change adapter settings**
-2. Right-clicked **Ethernet** → selected **Properties**
-3. Configured IPv4 with:
+   ![Interactive Login](imgs/ad8.png)
+
+---
+
+### Assign Static IP Address
+
+Open **Control Panel > Network and Sharing Centre > Change adapter settings**
+Right-clicked **Ethernet** → selected **Properties**
+Select “Internet Protocol Version 4 (TCP/IPv4) ➔ “Properties”.
+Configure IPv4 with:
    - **IP**: `10.0.0.5`
    - **Subnet Mask**: `255.255.255.0`
    - **Default Gateway**: `10.0.0.1`
 
-   ![Network Connections](img/networkconnections1.png)
+   ![Network Connections](imgs/networkconnections1.png)
 
 ---
 
-### Step 2: Installing Roles and Features
+### Promote Active Directory to a Domain Controller
 
-1. Opened **Server Manager**
-2. Clicked **Add Roles and Features**
-3. Selected **Role-based or feature-based installation**
-4. Targeted the local server (`10.0.0.5`)
-5. Installed the following roles:
+To run Active Directory on this Windows Server, we need to install several required features.
+
+Go back to **Server Manager**
+Click **Add Roles and Features**
+
+![Add Roles and Features](imgs/roles.jpg)
+
+Select “Next” for the next 3 boxes. 
+![pre-req](imgs/prereq.jpg)
+![Role-based](imgs/Role-based.jpg)
+![Destination](imgs/dest.jpg)
+
+Target the local server (`10.0.0.5`)
+Install the following roles:
    - **Active Directory Domain Services (AD DS)**
    - **DHCP Server**
    - **DNS Server**
@@ -161,7 +169,6 @@ If on VirtualBox, navigate to the top of VirtualBox, go to **“Input” ➔ “
 
 ---
 
-### Step 3: Promoting the Server to a Domain Controller
 
 1. Opened **Server Manager > AD DS** → clicked **More...**
    ![Server Manager](img/servermanager.png)
