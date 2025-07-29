@@ -68,6 +68,6 @@ Select NAT Networks ➔ “Create”.
 
 At the bottom, name the NatNetwork “skynet-network” and choose an IPv4 prefix, refer to the Project Overview guide for more detail on IPv4 prefixes. Select “Apply” to save changes. 
 
-![Nat Network](imgs/natnetwork3.jpg)
+![Nat Network](imgs/natnetwork3.png)
 
 > 💡 **Note**: By default, the “skynet-network” NAT Network will be selected for all newly provisioned Virtual Machines.
