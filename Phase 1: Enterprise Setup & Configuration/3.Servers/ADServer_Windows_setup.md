@@ -62,32 +62,49 @@ Many organisations use **hybrid identity setups** (on-premises + cloud) with **M
 
 ---
 ## Windows Server 2025 Setup
-## Step 1: Installing Windows Server (GUI)
-1. Started the VM and began installation (The ISO has been downloaded).
-2. Accepted the license terms.
-3. Selected the **Desktop Experience** version for GUI access.
 
-   ![window server GUI](img/ad5.png)
+Select “Next” ➔ “Install Windows 11” ➔ Check the box ➔ “Next”.
+![window server Install](imgs/winserver.jpg)
+![window server Install](imgs/winserver1.jpg)
 
-4. Installed on **Partition 2** (the largest available partition).
+Selected the **Desktop Experience** version for GUI access.
 
-   ![Disk Partition](img/ad6.png)
+   ![window server GUI](imgs/winserver2.png)
 
-5. Server rebooted several times and completed installation with the GUI.
+Accept Microsoft’s End User License Agreement (EULA) ➔ “Next”.
 
+Select “Disk 0 Unallocated Space” ➔ “Create Partition”. Use the default “Size in MB” setting ➔ “Apply".
+
+Wait for two or three partitions to show up.
+
+> 💡 **Note**: Why is this done?: Partitions are logically separated containers used to organize and separate data. We create a couple partitions to separate these spaces out.
+
+
+Select Disk 0 **Partition 2** (always choose the largest available partition).
+
+   ![Disk Partition](imgs/winserver3.png)
+
+Select “Install”. 
+
+![Install](imgs/winserver4.png)
+
+Wait for Windows Server 2025 to fully install. The VM should restart. 
+![Reboot](imgs/winserver5.png)
 ---
 
-### Step 2: Creating the Administrator Account
+A login prompt will appear after restarting...
 
-1. Set up the default **Administrator** account.
-2. Used a strong password (as per project guidelines).
-3. Clicked **Next** to finish.
+Set a password for the default Administrator account. Password is Mr.Robot1
 
----
+> 💡 **Note**: Refer to the “Project Overview” guide for more information on default usernames and passwords.
 
-### Step 3: Post-Installation Configuration
+![Login Prompt](imgs/loginprompt.png)
 
-1. Logged into the server using `Ctrl + Alt + Del` via VirtualBox menu.
+The login screen will appear.
+![Login Prompt](imgs/loginprompt1.png)
+
+If on VirtualBox, navigate to the top of VirtualBox, go to **“Input” ➔ “Keyboard” ➔ “Insert Ctrl-Alt-Del”** to open the login prompt. 
+
 2. Confirmed **Server Manager** loaded successfully.
 3. Disabled screen timeout:
    - Went to **Settings > Power & Battery > Screen Timeout** → set to **Never**
