@@ -168,7 +168,7 @@ By default, VirtualBox virtual machines don’t run in full screen. To enable it
 
 With the virtual machine running, go to the menu bar and select **Devices ➔ Insert Guest Additions CD image…**. This will mount the installer inside the VM. Follow the prompts to complete the installation.
 
-![Guest Additions](imgs/vga.jpg)
+![Guest Additions](imgs/vga.png)
 
 Open the **File Explorer** in the Windows virtual machine. Navigate to **This PC**, then double-click the **VirtualBox Guest Additions** drive to open it.
 
