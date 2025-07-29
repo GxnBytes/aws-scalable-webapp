@@ -194,7 +194,7 @@ Install the following roles:
 ### Confirming Domain Setup
 
 After restart, the login screen displayed `CORP\Administrator`, confirming that Active Directory and the domain were properly set up.
-
+![CORP](imgs/corp.jpg)
 ---
 
 ### Configuring DNS for Internet Access
