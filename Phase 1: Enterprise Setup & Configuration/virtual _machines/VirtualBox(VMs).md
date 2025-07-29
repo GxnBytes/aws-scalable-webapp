@@ -119,7 +119,7 @@ Review specifications. Select “Finish”.
 
 ![New VM](imgs/newvm4.jpg)
 
-Attach ISO and Configure Network
+### Attach ISO and Configure Network
 
 Select the newly created virtual machine and open Settings. Under the Storage tab, click the Empty optical drive and choose Choose a disk file…. Locate your downloaded ISO file (typically in the Downloads folder) and click Open.
 
