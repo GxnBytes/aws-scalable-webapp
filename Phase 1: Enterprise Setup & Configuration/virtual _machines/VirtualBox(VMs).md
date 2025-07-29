@@ -195,9 +195,9 @@ You should now be able to make the machine full screen.
 - After inserting the CD, open the file manager and run:  
  `VBoxLinuxAdditions.run`
 
-> 📸 **(Right-click → Open in Terminal → Run with sudo if needed)** ![Open in Terminal](img/vgalinux.png)
+> 📸 **(Right-click → Open in Terminal → Run with sudo if needed)** ![Open in Terminal](imgs/vgalinux.png)
 
-> 📸 ![Terminal](img/vgalinux1.png)
+> 📸 ![Terminal](imgs/vgalinux1.png)
 
      ```bash
      sudo ./VBoxLinuxAdditions.run
