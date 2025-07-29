@@ -71,3 +71,16 @@ At the bottom, name the NatNetwork “skynet-network” and choose an IPv4 prefi
 ![Nat Network](imgs/natnetwork3.png)
 
 > 💡 **Note**: By default, the “skynet-network” NAT Network will be selected for all newly provisioned Virtual Machines.
+
+---
+## Downloaded Operating System ISOs
+
+I made sure to get the official installation ISO files for each operating system:
+
+* **Windows Server 2025**: I found and downloaded the evaluation ISO.
+* **Windows 11 Enterprise**: I downloaded this through my Microsoft account.
+* **Ubuntu 24.04 Desktop**: I downloaded it from the [Ubuntu Official Site](https://ubuntu.com/download/desktop).
+* **Ubuntu Server 24.04**: I also got this from the [Ubuntu Official Site](https://ubuntu.com/download/server).
+* **Security Onion**: I downloaded the ISO from the [Security Onion Official Site](https://securityonionsolutions.com/download/).
+* **Kali Linux 2024**: I chose the "Installer Images" option from the [Kali Linux Official Site](https://www.kali.org/get-kali/#kali-virtual-machines) for a clean install.
+
