@@ -89,6 +89,7 @@ Select “Install”.
 ![Install](imgs/winserver4.png)
 
 Wait for Windows Server 2025 to fully install. The VM should restart. 
+
 ![Reboot](imgs/winserver5.png)
 ---
 
@@ -98,10 +99,10 @@ Set a password for the default Administrator account. Password is Mr.Robot1
 
 > 💡 **Note**: Refer to the “Project Overview” guide for more information on default usernames and passwords.
 
-![Login Prompt](imgs/loginprompt.png)
+![Login Prompt](imgs/loginprompt.jpg)
 
 The login screen will appear.
-![Login Prompt](imgs/loginprompt1.png)
+![Login Prompt](imgs/loginprompt1.jpg)
 
 If on VirtualBox, navigate to the top of VirtualBox, go to **“Input” ➔ “Keyboard” ➔ “Insert Ctrl-Alt-Del”** to open the login prompt. 
 
