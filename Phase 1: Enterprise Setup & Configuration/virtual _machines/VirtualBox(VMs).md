@@ -27,7 +27,7 @@ VirtualBox is now ready for use. I use it to run virtual machines as part of my 
    ✅ Version installed: VirtualBox 7.0.26r168464 on Ubuntu Linux
    ```
 ---
-##Host Key in VirtualBox
+## Host Key in VirtualBox
 
 The **Host Key** is a special key (typically the **Right CTRL**) that lets you interact with VirtualBox instead of the guest operating system inside the virtual machine (VM). It's used to exit the VM and return to the host system.
 
