@@ -152,7 +152,7 @@ In VirtualBox, select the virtual machine, then click Take to create a snapshot.
 
 Title the snapshot with something descriptive so you can recall what configurations were made up until this point.
 
-### Benefits of Taking Snapshots:
+#### Benefits of Taking Snapshots:
 - 🛠️ **Experiment Safely**: Allows me to experiment with configurations without worrying about breaking the system.
 - 🔄 **Easy Reverts**: If something goes wrong, I can easily revert to a previously saved state.
 - ⏳ **Avoid Starting Over**: No need to start from scratch if mistakes happen snapshots help restore functionality quickly.
