@@ -1,4 +1,4 @@
-# 📧 Email Server - MailHog (UK Spelling)
+# 📧 Email Server - MailHog
 
 ## Prerequisites
 
