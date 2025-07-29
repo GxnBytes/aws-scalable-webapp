@@ -145,7 +145,7 @@ When the virtual machine starts, you'll see a prompt to press a key. Press any l
 
 As part of configuring the virtual machines for this project, I will take **VirtualBox snapshots** at key stages. This helps me save the current state of each VM before making significant changes, ensuring I can revert to a stable configuration if needed.
 
-![Snapshots](img/snapshots.png)
+![Snapshots](imgs/snapshots.png)
 
 ### Benefits of Taking Snapshots:
 - 🛠️ **Experiment Safely**: Allows me to experiment with configurations without worrying about breaking the system.
