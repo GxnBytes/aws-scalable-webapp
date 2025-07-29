@@ -158,3 +158,60 @@ Title the snapshot with something descriptive so you can recall what configurati
 - ⏳ **Avoid Starting Over**: No need to start from scratch if mistakes happen snapshots help restore functionality quickly.
 
 Using snapshots makes the setup process more efficient, recoverable, and flexible, allowing for smooth and controlled changes throughout the project.
+
+---
+## Enable Full Screen with VirtualBox Guest Additions
+
+By default, VirtualBox virtual machines don’t run in full screen. To enable it, you can install **VirtualBox Guest Additions**, a set of drivers and system tools that improve VM performance and usability.
+
+**For Windows 10/11:**
+
+With the virtual machine running, go to the menu bar and select **Devices ➔ Insert Guest Additions CD image…**. This will mount the installer inside the VM. Follow the prompts to complete the installation.
+
+![Guest Additions](imgs/vga.jpg)
+
+Open the **File Explorer** in the Windows virtual machine. Navigate to **This PC**, then double-click the **VirtualBox Guest Additions** drive to open it.
+
+![Guest Additions](imgs/vga1.jpg)
+
+Inside the VirtualBox Guest Additions folder, you’ll see several executable files. Double-click the generic VBoxWindowsAdditions program to start the installation.
+
+![Guest Additions](imgs/vga2.jpg)
+
+Follow the default installation wizard settings.
+
+![Guest Additions](imgs/vga3.jpg)
+
+Choose to "Reboot Now".
+
+![Guest Additions](imgs/vga4.jpg)
+
+Allow the Virtual Machine to restart.
+
+You should now be able to make the machine full screen. 
+
+**For Linux - 🐧 Ubuntu & Kali Linux VMs**
+
+- After inserting the CD, open the file manager and run:  
+ `VBoxLinuxAdditions.run`
+
+> 📸 **(Right-click → Open in Terminal → Run with sudo if needed)** ![Open in Terminal](img/vgalinux.png)
+
+> 📸 ![Terminal](img/vgalinux1.png)
+
+     ```bash
+     sudo ./VBoxLinuxAdditions.run
+
+- You may need to install required packages beforehand:
+     ```bash
+     sudo apt update
+     sudo apt install -y build-essential dkms linux-headers-$(uname -r)
+
+- Reboot the VM after installation.
+
+✅ Result
+
+Once Guest Additions are installed and integration options are enabled:
+
+- VMs can enter full-screen mode seamlessly.
+- Clipboard and drag-and-drop work both ways between host and guest.
