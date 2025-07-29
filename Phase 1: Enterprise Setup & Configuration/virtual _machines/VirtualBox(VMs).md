@@ -73,7 +73,8 @@ At the bottom, name the NatNetwork “skynet-network” and choose an IPv4 prefi
 > 💡 **Note**: By default, the “skynet-network” NAT Network will be selected for all newly provisioned Virtual Machines.
 
 ---
-## Downloaded Operating System ISOs
+
+### Downloaded ISOs
 
 I made sure to get the official installation ISO files for each operating system:
 
@@ -84,3 +85,36 @@ I made sure to get the official installation ISO files for each operating system
 * **Security Onion**: I downloaded the ISO from the [Security Onion Official Site](https://securityonionsolutions.com/download/).
 * **Kali Linux 2024**: I chose the "Installer Images" option from the [Kali Linux Official Site](https://www.kali.org/get-kali/#kali-virtual-machines) for a clean install.
 
+---
+
+## Create A New Virtual Machine
+
+Navigate to VirtualBox. Go to Machine ➔ New.
+
+![New VM](imgs/newvm.jpg)
+
+Enter a name for the Virtual Machine.
+
+Choose default Folder location.
+
+Select “Type: Microsoft Windows”. Version: “Windows Server 2025 (64-bit)” 
+
+![New VM](imgs/newvm1.png)
+
+**Set Hardware Specifications**
+
+Each virtual machine should have at least **4 GB of RAM (4096 MB)** and **2 CPUs**, unless stated otherwise.
+
+> 💡 **Note**: 👉 Refer to the “Project Overview” guide for more information on default VM settings and names.
+
+For Windows 11: Enable EFI.
+
+![New VM](imgs/newvm2.png)
+
+Created a **dynamically allocated** virtual hard disk (unchecked “Pre-allocate”) with **50 GB** space.
+
+![New VM](imgs/newvm3.png)
+
+Review specifications. Select “Finish”. 
+
+![New VM](imgs/newvm4.jpg)
