@@ -45,10 +45,10 @@ The Host Key allows you to:
 
 To check your current Host Key, go to **File ➔ Preferences** in VirtualBox.
 
-![Preferences](imgs/preferences.png)
+![Preferences](./imgs/preferences.png)
 
 Go to **Input ➔ Host Key Combination** to view or change the Host Key. To set a new key, select the box and press the desired key on your keyboard.
 
-![Host Key](imgs/hostkey.png)
+![Host Key](./imgs/hostkey.png)
 
 ---
