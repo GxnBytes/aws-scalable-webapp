@@ -52,4 +52,22 @@ Go to **Input ➔ Host Key Combination** to view or change the Host Key. To set 
 ![Host Key](imgs/hostkey.jpg)
 
 ---
+**Set Up a New NAT Network in VirtualBox**
+
+We’ll use a NAT Network to connect Virtual Machines (VMs) to each other and the internet.
+
+1. Open VirtualBox.
+2. Go to **File ➔ Tools ➔ Network Manager**.
+3. Create a new NAT Network.
+
+![Nat Network](imgs/natnetwork1.jpg)
+
+Select NAT Networks ➔ “Create”. 
+
+![Nat Network](imgs/natnetwork2.jpg)
+
+At the bottom, name the NatNetwork “skynet-network” and choose an IPv4 prefix, refer to the Project Overview guide for more detail on IPv4 prefixes. Select “Apply” to save changes. 
+
+![Nat Network](imgs/natnetwork3.jpg)
+
 > 💡 **Note**: By default, the “skynet-network” NAT Network will be selected for all newly provisioned Virtual Machines.
