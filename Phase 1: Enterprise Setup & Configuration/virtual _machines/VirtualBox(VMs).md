@@ -133,3 +133,5 @@ Select the Virtual Machine, then Select “Start”.
 When the virtual machine starts, you'll see a prompt to press a key. Press any letter key to begin the operating system’s installation wizard.
 
 ![Boot](imgs/boot.jpg)
+
+---
