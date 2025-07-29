@@ -1,6 +1,68 @@
-# Skynet Network Setup - Directory Services Server Setup (Windows Server 2025)
+# AD Server - Windows Server 2025 Setup
 
-### Step 1: Installing Windows Server (GUI)
+## What is Active Directory?
+
+**Active Directory (AD)** is Microsoft’s directory service used to manage users, devices, and resources on a network. It acts as a **centralised database** to:
+
+- **Authenticate** users (verify identity)
+- **Authorise** access (grant or deny permissions)
+- **Manage** network resources (users, devices, policies)
+
+---
+
+## Why Use Active Directory?
+
+AD is essential in enterprise environments because it:
+
+- 🔧 **Centralises management** of users, devices, and permissions  
+- 📈 **Scales easily** — from small businesses to multinational organisations  
+- 🔐 **Secures authentication & authorisation** using protocols like **Kerberos** and **LDAP**  
+- 🛠️ **Applies policies** through **Group Policy Objects (GPOs)** for security and software control  
+- 🔗 **Integrates** with tools like **Microsoft Exchange**, **Azure AD**, and other enterprise services
+
+---
+
+## Core Concepts in Active Directory
+
+| Concept | Description |
+|--------|-------------|
+| **Domain** | A logical group of users/devices with shared policies and authentication. <br>🧪 *We will use:* `corp.project-x-dc.com` |
+| **Domain Controller (DC)** | A server that stores the AD database and handles logins and permissions |
+| **Organisational Units (OUs)** | Folders within a domain used to logically organise users and devices (e.g., HR, IT, Finance) |
+| **Objects** | Everything in AD — users, computers, printers, groups, etc. |
+| **Groups** | Used to manage access:<br>- **Security Groups**: For permissions<br>- **Distribution Groups**: For email |
+| **Forest & Trees** | **Forest** = Top-level container for domains<br>**Tree** = Linked domains in a hierarchy |
+| **Global Catalogue (GC)** | Speeds up searches by storing information about all AD objects in the forest |
+| **Trust Relationships** | Allow users in one domain to access resources in another domain |
+
+---
+
+## Security Considerations
+
+Since AD controls access to critical systems, it’s a frequent target for attackers.
+
+### 🔒 Common Threats:
+
+- **Credential Theft** – e.g., *Pass-the-Hash*, *Kerberoasting*
+- **Privilege Escalation** – exploiting misconfigured permissions
+- **Lateral Movement** – using AD to move through the network
+
+---
+
+## Hybrid vs On-Premises AD
+
+Many organisations use **hybrid identity setups** (on-premises + cloud) with **Microsoft Entra ID** (formerly Azure Active Directory).
+
+🔧 For this project, we’ll use a **fully on-premises AD setup**:
+- Full control over setup and configuration  
+- No cloud costs  
+- Ideal for isolated lab environments
+
+> Object names and some settings may vary slightly from cloud-based AD, but the **core concepts remain the same**.
+
+---
+## Windows Server 2025 Setup
+## Step 1: Installing Windows Server (GUI)
 1. Started the VM and began installation (The ISO has been downloaded).
 2. Accepted the license terms.
 3. Selected the **Desktop Experience** version for GUI access.
