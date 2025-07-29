@@ -159,9 +159,9 @@ Install the following roles:
    - **DHCP Server**
    - **DNS Server**
 
-   ![Active Directory](img/installadds.png)
-   ![DHCP](img/dhcpserver.png)
-   ![DNS](img/dnsserver.png)
+   ![Active Directory](imgs/installadds.png)
+   ![DHCP](imgs/dhcpserver.png)
+   ![DNS](imgs/dnsserver.png)
 
 6. Clicked **Install** and waited for completion.
 
