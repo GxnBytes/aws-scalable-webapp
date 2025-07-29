@@ -26,3 +26,21 @@ VirtualBox is now ready for use. I use it to run virtual machines as part of my 
    ```
    ✅ Version installed: VirtualBox 7.0.26r168464 on Ubuntu Linux
    ```
+---
+##Host Key in VirtualBox
+
+The **Host Key** is a special key (typically the **Right CTRL**) that lets you interact with VirtualBox instead of the guest operating system inside the virtual machine (VM). It's used to exit the VM and return to the host system.
+
+### Default Host Key:
+
+- The default is usually the **Right CTRL** key, but it may vary based on your system or preferences.
+
+**Purpose:**
+
+The Host Key allows you to:
+
+**1. Release Input:** If the VM has captured your keyboard or mouse, pressing the Host Key returns control to the host system.
+
+**2. Access VirtualBox Features:** Use key combinations to perform actions like switching to full-screen, capturing screenshots, or opening the VirtualBox menu.
+
+To check your current Host Key, go to **File ➔ Preferences** in VirtualBox.
