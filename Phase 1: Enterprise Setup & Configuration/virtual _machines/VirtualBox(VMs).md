@@ -44,4 +44,7 @@ The Host Key allows you to:
 **2. Access VirtualBox Features:** Use key combinations to perform actions like switching to full-screen, capturing screenshots, or opening the VirtualBox menu.
 
 To check your current Host Key, go to **File ➔ Preferences** in VirtualBox.
+
 ![Preferences](img/preferences.png)
+
+Go to Input ➔ Host Key Combination to view or change the Host Key. To set a new key, select the box and press the desired key on your keyboard.
