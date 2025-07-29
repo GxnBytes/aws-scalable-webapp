@@ -68,8 +68,6 @@ Select NAT Networks ➔ “Create”.
 
 At the bottom, name the NatNetwork `skynet-network` and choose an IPv4 prefix, refer to the Project Overview guide for more detail on IPv4 prefixes. Select “Apply” to save changes. 
 
-![Nat Network](imgs/natnetwork3.png)
-
 > 💡 **Note**: By default, the `skynet-network` NAT Network will be selected for all newly provisioned Virtual Machines.
 
 ---
@@ -118,3 +116,16 @@ Created a **dynamically allocated** virtual hard disk (unchecked “Pre-allocate
 Review specifications. Select “Finish”. 
 
 ![New VM](imgs/newvm4.jpg)
+
+Attach ISO and Configure Network
+
+Select the newly created virtual machine and open Settings. Under the Storage tab, click the Empty optical drive and choose Choose a disk file…. Locate your downloaded ISO file (typically in the Downloads folder) and click Open.
+
+Next, go to the Network tab. Set Attached to as NAT Network, and choose skynet network in the Name dropdown. Click OK to apply the changes.
+
+![Nat Network](imgs/natnetwork3.png)
+
+Select the Virtual Machine, then Select “Start”.
+
+When the virtual machine starts, you'll see a prompt to press a key. Press any letter key to begin the operating system’s installation wizard.
+
