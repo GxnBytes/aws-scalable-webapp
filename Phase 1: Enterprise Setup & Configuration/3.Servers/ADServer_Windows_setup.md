@@ -189,30 +189,29 @@ Install the following roles:
 
 ---
 
-## Verifying Domain and DNS Configuration
-
-### Confirming Domain Setup
+### Verifying Domain and DNS Configuration
 
 After restart, the login screen displayed `CORP\Administrator`, confirming that Active Directory and the domain were properly set up.
+
 ![CORP](imgs/corp.jpg)
 ---
 
 ### Configuring DNS for Internet Access
 
 1. Opened **Server Manager > DNS**
-   ![DNS](img/dnssetup1.png)
+   ![DNS](imgs/dnssetup1.png)
 
 2. Opened **DNS Manager**
-   ![DNS](img/dnssetup2.png)
+   ![DNS](imgs/dnssetup2.png)
 
 3. Right-clicked the server → **Properties**
-   ![DNS](img/dnssetup3.png)
+   ![DNS](imgs/dnssetup3.png)
 
 4. Went to the **Forwarders** tab → clicked **Edit**
-   ![DNS](img/dnssetup4.png)
+   ![DNS](imgs/dnssetup4.png)
 
 5. Added Google DNS: `8.8.8.8` → clicked **OK**, then **Apply**
-   ![DNS](img/dnssetup5.png)
+   ![DNS](imgs/dnssetup5.png)
 
 ---
 
@@ -220,9 +219,9 @@ After restart, the login screen displayed `CORP\Administrator`, confirming that 
 
 - Opened **PowerShell**
 - Ran: `ping google.com` → successful replies
-  ![Ping](img/pinggoogle.png)
+  ![Ping](imgs/pinggoogle.png)
 - Ran: `nslookup google.com` → resolved IP address
-  ![NSLookup](img/nslookup.png)
+  ![NSLookup](imgs/nslookup.png)
 
 ---
 
@@ -234,23 +233,23 @@ Although most devices will use static IPs, I configured DHCP to support dynamic 
 
 1. Opened **Server Manager > DHCP**
 2. Opened **DHCP Manager**
-   ![DHCP](img/dhcp.png)
+   ![DHCP](imgs/dhcp.png)
 
 3. Right-clicked **IPv4** → selected **New Scope**
-   ![New Scope](img/dhcp1.png)
+   ![New Scope](imgs/dhcp1.png)
 
 4. Named the scope: `skynet-scope`
 5. IP Range:
    - **Start**: `10.0.0.100`
    - **End**: `10.0.0.200`
    - **Subnet**: `/24` → `255.255.255.0`
-   ![Scope Settings](img/dhcp2.png)
+   ![Scope Settings](imgs/dhcp2.png)
 
 6. Skipped exclusions → set **Lease Duration** to **8 days**
 7. Chose to configure options immediately
 
 8. Set **Default Gateway**: `10.0.0.1`
-   ![Gateway](img/dhcp3.png)
+   ![Gateway](imgs/dhcp3.png)
 
 9. Skipped DNS/WINS → activated the scope → clicked **Finish**
 
@@ -260,8 +259,8 @@ Although most devices will use static IPs, I configured DHCP to support dynamic 
 
 1. Back in **Server Manager**, clicked **More...** on the DHCP notification
 2. Selected **Complete DHCP configuration**
-   ![DHCP Final](img/dhcp4.png)
-   ![DHCP Final](img/dhcp5.png)
+   ![DHCP Final](imgs/dhcp4.png)
+   ![DHCP Final](imgs/dhcp5.png)
 
 3. Clicked **Next**, **Commit**, then **Close**
 4. Refreshed the screen to verify setup
@@ -283,7 +282,7 @@ With the domain controller fully configured, I created user accounts that will l
 1. In **Server Manager**, clicked the **Tools** dropdown (top-right corner).
 2. Selected **Active Directory Users and Computers**.
 
-> 📸 ![Tools](img/tools.png)
+> 📸 ![Tools](imgs/tools.png)
 
 3. In the left-hand pane, expanded the domain tree.
 4. Clicked on the **Users** container to manage accounts.
@@ -293,14 +292,14 @@ With the domain controller fully configured, I created user accounts that will l
 ### Step 2: Create User – John Doe
 
 1. Right-clicked the **Users** folder → selected **New > User**.
-📸 ![Users](img/users.png)
+📸 ![Users](imgs/users.png)
 2. Filled in the following:
    - **First Name**: John
    - **Last Name**: Doe
    - **User logon name**: `john.doe`
 
 > This user will be linked to the `-win-client` VM.
-📸 ![Users](img/user1.png)
+📸 ![Users](imgs/user1.png)
 
 3. Adjusted password options:
    - **Deselected**: "User must change password at next logon"
@@ -321,7 +320,7 @@ With the domain controller fully configured, I created user accounts that will l
    - **User logon name**: `jane.doe`
    - Used the same password settings for consistency.
 
-> 📸 ![Users Created](img/users_created.png)
+> 📸 ![Users Created](imgs/users_created.png)
 
 ---
 
@@ -332,7 +331,7 @@ To preserve this configuration state, I created a snapshot of the domain control
 1. In the **VirtualBox** menu, selected **Machine > Take Snapshot**.
 2. Named the snapshot: `base` — this marks the **baseline configuration** of the domain controller.
 
-> 📸 ![baseline configuration](img/vbox_snapshot_base.png)
+> 📸 ![baseline configuration](imgs/vbox_snapshot_base.png)
 
 ---
 
