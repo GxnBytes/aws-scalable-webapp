@@ -165,25 +165,25 @@ Install the following roles:
 
 6. Clicked **Install** and waited for completion.
 
-   ![Installation Progress](img/installationprogress.png)
+   ![Installation Progress](imgs/installationprogress.png)
 
 ---
 
 
 1. Opened **Server Manager > AD DS** → clicked **More...**
-   ![Server Manager](img/servermanager.png)
+   ![Server Manager](imgs/servermanager.png)
 
 2. Clicked **Promote this server to a domain controller**
-   ![Promote](img/promoteadds.png)
+   ![Promote](imgs/promoteadds.png)
 
 3. Chose **Add a new forest** → entered domain: `corp.skynet-dc.com`
-   ![New Forest](img/addnewforest.png)
+   ![New Forest](imgs/addnewforest.png)
 
 4. Left default domain controller options → set **DSRM password**
-   ![DSRM Password](img/domainpassword.png)
+   ![DSRM Password](imgs/domainpassword.png)
 
 5. Left **NetBIOS name** as `CORP` → clicked through to **Install**
-   ![Install](img/promoteadds2.png)
+   ![Install](imgs/promoteadds2.png)
 
 6. Server restarted automatically after installation.
 
