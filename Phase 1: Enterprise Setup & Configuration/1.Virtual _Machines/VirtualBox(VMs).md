@@ -1,7 +1,5 @@
 # 🧰 Installing VirtualBox on Ubuntu (From Official Site)
 
-I installed **VirtualBox version 7.0.26r168464** by downloading the `.deb` package directly from the official Oracle VirtualBox website.
-
 ### Installation Steps:
 
 1. **Go to the official download page**  
