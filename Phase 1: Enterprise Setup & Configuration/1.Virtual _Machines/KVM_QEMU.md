@@ -1,16 +1,20 @@
-# 🧰 Installing KVM/QEMU on Ubuntu 
+# 🧰 Installing KVM/QEMU on Ubuntu
 
-## 1. Install KVM, QEMU, and Virtual Machine Manager
+## Installation Process
+
+### Install KVM, QEMU, and Virtual Machine Manager
+
 ```bash
 sudo apt update
 sudo apt install -y qemu-kvm libvirt-daemon-system virt-manager
 
-KVM, QEMU, and Virtual Machine Manager is now ready for use. I use it to run virtual machines as part of my cybersecurity homelab setup.
+### Add your user to the libvirt group
 
-### 2. Add your user to the libvirt group
 ```bash
 sudo usermod -aG libvirt $USER
 newgrp libvirt
+
+KVM, QEMU, and Virtual Machine Manager is now ready for use. I use it to run virtual machines as part of my cybersecurity homelab setup.
 
 ---
 
