@@ -3,16 +3,16 @@
 ## Installation Steps:
 
 ### 1. Install KVM, QEMU, and Virtual Machine Manager
-   ```bash
-   sudo apt update
-   sudo apt install -y qemu-kvm libvirt-daemon-system virt-manager
+```bash
+sudo apt update
+sudo apt install -y qemu-kvm libvirt-daemon-system virt-manager
 
 KVM, QEMU, and Virtual Machine Manager is now ready for use. I use it to run virtual machines as part of my cybersecurity homelab setup.
 
 ### 2. Add your user to the libvirt group
-   ```bash
-   sudo usermod -aG libvirt $USER
-   newgrp libvirt
+```bash
+sudo usermod -aG libvirt $USER
+newgrp libvirt
 
 ---
 **Set Up a New NAT Network in VirtualBox**
