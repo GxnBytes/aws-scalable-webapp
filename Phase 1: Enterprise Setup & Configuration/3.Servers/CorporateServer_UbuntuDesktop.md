@@ -1,4 +1,4 @@
-# 🖥️ Provision & Set Up Ubuntu Desktop 22.04
+# 🖥️ Ubuntu Desktop 22.04 Setup
 
 ## ✅ Prerequisites
 
