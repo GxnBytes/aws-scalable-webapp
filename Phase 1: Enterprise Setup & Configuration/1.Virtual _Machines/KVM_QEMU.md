@@ -1,8 +1,6 @@
-# 🧰 Installing KVM/QEMU on Ubuntu (Simple Setup)
+# 🧰 Installing KVM/QEMU on Ubuntu 
 
-## Installation Steps:
-
-### 1. Install KVM, QEMU, and Virtual Machine Manager
+## 1. Install KVM, QEMU, and Virtual Machine Manager
 ```bash
 sudo apt update
 sudo apt install -y qemu-kvm libvirt-daemon-system virt-manager
@@ -15,6 +13,7 @@ sudo usermod -aG libvirt $USER
 newgrp libvirt
 
 ---
+
 **Set Up a New NAT Network in VirtualBox**
 
 We’ll use a NAT Network to connect Virtual Machines (VMs) to each other and the internet.
