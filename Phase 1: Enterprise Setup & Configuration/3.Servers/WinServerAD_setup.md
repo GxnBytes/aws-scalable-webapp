@@ -308,7 +308,7 @@ Use the password from the project overview ➔ Click **Next** and **Finish**
 
 ## ✅ Final Status
 
-Your **Windows Server 2025 VM** is now fully configured as a **Domain Controller**, running:
+Your **Windows Server 2022 VM** is now fully configured as a **Domain Controller**, running:
 
 - ✅ Active Directory Domain Services (AD DS)  
 - ✅ DNS  
