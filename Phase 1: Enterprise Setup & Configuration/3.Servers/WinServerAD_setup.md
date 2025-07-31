@@ -1,4 +1,4 @@
-# AD Server - Windows Server 2025 Setup
+# Windows Server 2022 - Active Directory Setup
 
 ## What is Active Directory?
 
