@@ -63,10 +63,10 @@ This project simulates a multi-VM enterprise infrastructure to explore **threat 
 |-----------------------|---------------------------|-------------|---------------|
 | `skynet-dc`           | Windows Server 2025       | 2 CPU / 4GB | 50 GB         |
 | `skynet-win-client`   | Windows 11 Enterprise     | 2 CPU / 4GB | 80 GB         |
-| `skynet-linux-client` | Ubuntu 24.04 Desktop      | 1 CPU / 3.5GB | 80 GB         |
+| `skynet-linux-client` | Ubuntu 22.04 Desktop      | 1 CPU / 3.5GB | 80 GB         |
 | `skynet-sec-work`     | Security Onion            | 1 CPU / 2GB | 55 GB         |
-| `skynet-sec-box`      | Ubuntu 24.04 Desktop      | 2 CPU / 4GB | 80 GB         |
-| `skynet-corp-svr`     | Ubuntu Server 24.04       | 1 CPU / 2GB | 25 GB         |
+| `skynet-sec-box`      | Ubuntu 22.04 Desktop      | 2 CPU / 4GB | 80 GB         |
+| `skynet-corp-svr`     | Ubuntu Server 22.04       | 1 CPU / 2GB | 25 GB         |
 | `skynet-attacker`     | Kali Linux 2024           | 1 CPU / 2GB | 55 GB         |
 
 ---
