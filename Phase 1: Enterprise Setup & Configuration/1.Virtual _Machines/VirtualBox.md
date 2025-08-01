@@ -1,5 +1,7 @@
 # 🧰 Installing VirtualBox on Ubuntu
 
+This guide shows you how to install VirtualBox on Ubuntu, with an optional step for adding the VirtualBox Extension Pack.
+
 ## Installation Process
 
 ```bash
