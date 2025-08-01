@@ -61,7 +61,7 @@ This project simulates a multi-VM enterprise infrastructure to explore **threat 
 
 | VM Name               | OS                        | CPU / RAM   | Storage (Min) |
 |-----------------------|---------------------------|-------------|---------------|
-| `skynet-dc`           | Windows Server 2025       | 2 CPU / 4GB | 50 GB         |
+| `skynet-dc`           | Windows Server 2022       | 2 CPU / 4GB | 50 GB         |
 | `skynet-win-client`   | Windows 10 Enterprise LTSC     | 2 CPU / 4GB | 80 GB         |
 | `skynet-linux-client` | Ubuntu 22.04 Desktop      | 1 CPU / 3.5GB | 80 GB         |
 | `skynet-sec-work`     | Security Onion            | 1 CPU / 2GB | 55 GB         |
