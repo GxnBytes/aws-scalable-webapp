@@ -33,7 +33,7 @@ This project simulates a multi-VM enterprise infrastructure to explore **threat 
 
 ## 🖥️ Operating Systems
 - **Windows Server 2022**: Central domain controller for enterprise services (DNS, DHCP, SSO).
-- **Windows 11 Enterprise**: Simulates a corporate desktop environment.
+- **Windows 10 Enterprise LTSC**: Simulates a corporate desktop environment.
 - **Ubuntu Desktop 22.04**: Software development workstation for a Linux environment.
 - **Security Onion**: Monitoring platform for intrusion detection and log analysis.
 - **Ubuntu Server 22.04**: Hosts internal services like mail and databases.
