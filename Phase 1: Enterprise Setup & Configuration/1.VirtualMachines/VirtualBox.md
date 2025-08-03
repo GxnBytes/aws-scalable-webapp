@@ -7,12 +7,14 @@ This guide shows you how to install VirtualBox on Ubuntu, with an optional step 
 ```bash
 sudo apt update
 sudo apt install -y virtualbox
+```
 
 (Optional) Add Extension Pack for USB, RDP, etc.
 Download the Extension Pack from the official VirtualBox site, then install it with:
 
 ```bash
-sudo vboxmanage extpack install ~/Downloads/Oracle_VM_VirtualBox_Extension_Pack-*.vbox-extpack
+sudo VBoxManage extpack install --replace <path-to-extension-pack>
+```
 
 VirtualBox is now ready for use. I use it to run virtual machines as part of my cybersecurity homelab setup.
 
