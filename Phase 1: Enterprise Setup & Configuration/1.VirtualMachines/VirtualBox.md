@@ -52,10 +52,10 @@ This process created a NAT network named `skynet-network` with the subnet `10.0.
 
 I made sure to get the official installation ISO files for each operating system:
 
-* **Windows Server 2025**: I found and downloaded the evaluation ISO.
-* **Windows 11 Enterprise**: I downloaded this through my Microsoft account.
-* **Ubuntu 24.04 Desktop**: I downloaded it from the [Ubuntu Official Site](https://ubuntu.com/download/desktop).
-* **Ubuntu Server 24.04**: I also got this from the [Ubuntu Official Site](https://ubuntu.com/download/server).
+* **Windows Server 2022**: I found and downloaded the evaluation ISO.
+* **Windows 10 Enterprise LTSC**: I downloaded this through my Microsoft account.
+* **Ubuntu 22.04 Desktop**: I downloaded it from the [Ubuntu Official Site](https://ubuntu.com/download/desktop).
+* **Ubuntu Server 22.04**: I also got this from the [Ubuntu Official Site](https://ubuntu.com/download/server).
 * **Security Onion**: I downloaded the ISO from the [Security Onion Official Site](https://securityonionsolutions.com/download/).
 * **Kali Linux 2024**: I chose the "Installer Images" option from the [Kali Linux Official Site](https://www.kali.org/get-kali/#kali-virtual-machines) for a clean install.
 
@@ -183,3 +183,4 @@ Once Guest Additions are installed and integration options are enabled:
 
 - VMs can enter full-screen mode seamlessly.
 - Clipboard and drag-and-drop work both ways between host and guest.
+
