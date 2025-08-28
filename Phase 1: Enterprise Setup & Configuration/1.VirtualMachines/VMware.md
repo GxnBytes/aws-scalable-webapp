@@ -1,29 +1,28 @@
-# 🧰 Installing VirtualBox on Mac
+# 🧰 Installing VMware Fusion on Mac
 
-This guide will help you install **VirtualBox** on a Mac. It also includes an optional step to install the **VirtualBox Extension Pack**, which adds support for USB devices, RDP, and more.
-
----
-
-## ✅ Step 1: Download VirtualBox
-
-1. Go to the [official VirtualBox download page](https://www.virtualbox.org/wiki/Downloads).
-2. Under **VirtualBox platform packages**, click on **"OS X hosts"** to download the macOS version.
-3. Open the downloaded `.dmg` file and follow the installer instructions.
+This guide walks you through the easy steps to download and install **VMware Fusion** on your Mac.
 
 ---
 
-## ✅ Step 2 (Optional): Install the Extension Pack
+## ✅ Step 1: Download VMware Fusion
 
-1. On the same [Downloads page](https://www.virtualbox.org/wiki/Downloads), find **"VirtualBox Extension Pack"**.
-2. Download the Extension Pack that matches your VirtualBox version.
-3. Double-click the `.vbox-extpack` file to open it with VirtualBox and follow the prompts to install.
+1. Open your web browser and go to the [official VMware Fusion page](https://www.vmware.com/products/fusion.html).  
+2. Click **Download Now** or **Try Now** to download the latest version for macOS.  
+3. Save the installer file (usually a `.dmg`) to your computer.
+
+---
+
+## ✅ Step 2: Install VMware Fusion
+
+1. Open the downloaded `.dmg` file by double-clicking it.  
+2. In the window that appears, double-click the VMware Fusion installer icon.  
+3. Follow the on-screen instructions to complete the installation. You might need to enter your Mac’s password and approve security permissions.
 
 ---
 
 ## 🎉 You're Done!
 
-VirtualBox is now installed and ready to run virtual machines on your Mac.  
-I use it as part of my **cybersecurity homelab setup**.
+VMware Fusion is now installed and ready for creating and running virtual machines on your Mac.
 
 ---
 
@@ -190,6 +189,7 @@ Once Guest Additions are installed and integration options are enabled:
 
 - VMs can enter full-screen mode seamlessly.
 - Clipboard and drag-and-drop work both ways between host and guest.
+
 
 
 
