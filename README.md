@@ -67,7 +67,7 @@ This project simulates a multi-VM enterprise infrastructure to explore **threat 
 | `skynet-sec-work`     | Security Onion            | 1 CPU / 2GB | 55 GB         |
 | `skynet-sec-box`      | Ubuntu 22.04 Desktop      | 2 CPU / 4GB | 80 GB         |
 | `skynet-corp-svr`     | Ubuntu Server 22.04       | 1 CPU / 2GB | 25 GB         |
-| `skynet-attacker`     | Kali Linux 2024           | 1 CPU / 2GB | 55 GB         |
+| `skynet-attacker`     | Kali Linux            | 1 CPU / 2GB | 80.09 GB         |
 
 ---
 
