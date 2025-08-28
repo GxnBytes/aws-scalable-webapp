@@ -1,29 +1,29 @@
 # 🧰 Installing VirtualBox on Mac
 
-This guide will help you install VirtualBox on a Mac. It also includes an optional step to install the VirtualBox Extension Pack, which adds support for USB devices, RDP, and more.
+This guide will help you install **VirtualBox** on a Mac. It also includes an optional step to install the **VirtualBox Extension Pack**, which adds support for USB devices, RDP, and more.
 
-✅ Step 1: Download VirtualBox
+---
 
-Go to the official VirtualBox download page
-.
+## ✅ Step 1: Download VirtualBox
 
-Under VirtualBox platform packages, click on "OS X hosts" to download the macOS version.
+1. Go to the [official VirtualBox download page](https://www.virtualbox.org/wiki/Downloads).
+2. Under **VirtualBox platform packages**, click on **"OS X hosts"** to download the macOS version.
+3. Open the downloaded `.dmg` file and follow the installer instructions.
 
-Open the downloaded .dmg file and follow the installer instructions.
+---
 
-✅ Step 2 (Optional): Install the Extension Pack
+## ✅ Step 2 (Optional): Install the Extension Pack
 
-On the same Downloads page
-, find "VirtualBox Extension Pack".
+1. On the same [Downloads page](https://www.virtualbox.org/wiki/Downloads), find **"VirtualBox Extension Pack"**.
+2. Download the Extension Pack that matches your VirtualBox version.
+3. Double-click the `.vbox-extpack` file to open it with VirtualBox and follow the prompts to install.
 
-Download the Extension Pack that matches your VirtualBox version.
+---
 
-Double-click the .vbox-extpack file to open it with VirtualBox and follow the prompts to install.
+## 🎉 You're Done!
 
-🎉 You're Done!
-
-VirtualBox is now installed and ready to run virtual machines on your Mac.
-I use it as part of my cybersecurity homelab setup.
+VirtualBox is now installed and ready to run virtual machines on your Mac.  
+I use it as part of my **cybersecurity homelab setup**.
 
 ---
 
@@ -190,6 +190,7 @@ Once Guest Additions are installed and integration options are enabled:
 
 - VMs can enter full-screen mode seamlessly.
 - Clipboard and drag-and-drop work both ways between host and guest.
+
 
 
 
