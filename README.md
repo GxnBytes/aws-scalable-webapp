@@ -81,7 +81,7 @@ This project simulates a multi-VM enterprise infrastructure to explore **threat 
 | `skynet-sec-work`              | @password123!    | ...-sec-work    |
 | `sec-work@sec-box`             | @password123!    | ...-sec-box     |
 | `skynet-admin@corp-svr`        | @password123!    | ...-corp-svr    |
-| `attacker@attacker`            | attacker        | attacker        |
+| `attacker@attacker`            | kali        | attacker        |
 
 ---
 
