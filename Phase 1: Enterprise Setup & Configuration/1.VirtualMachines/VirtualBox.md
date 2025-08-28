@@ -1,6 +1,6 @@
-# 🧰 Installing VirtualBox on Ubuntu
+# 🧰 Installing VirtualBox on Mac
 
-This guide shows you how to install VirtualBox on Ubuntu, with an optional step for adding the VirtualBox Extension Pack.
+This guide shows you how to install VirtualBox on Mac, with an optional step for adding the VirtualBox Extension Pack.
 
 ## Installation Process
 
@@ -183,4 +183,5 @@ Once Guest Additions are installed and integration options are enabled:
 
 - VMs can enter full-screen mode seamlessly.
 - Clipboard and drag-and-drop work both ways between host and guest.
+
 
