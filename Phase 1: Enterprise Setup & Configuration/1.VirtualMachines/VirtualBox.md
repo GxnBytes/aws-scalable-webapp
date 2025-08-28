@@ -32,7 +32,7 @@ I use it as part of my **cybersecurity homelab setup**.
 We’ll use a NAT Network to connect Virtual Machines (VMs) to each other and the internet.
 
 1. Open VirtualBox.
-2. Go to **File ➔ Tools ➔ Network Manager**.
+2. Go to **Tools ➔ Network Manager**.
 3. Create a new NAT Network.
 
 ![Nat Network](imgs/natnetwork1.jpg)
@@ -190,6 +190,7 @@ Once Guest Additions are installed and integration options are enabled:
 
 - VMs can enter full-screen mode seamlessly.
 - Clipboard and drag-and-drop work both ways between host and guest.
+
 
 
 
