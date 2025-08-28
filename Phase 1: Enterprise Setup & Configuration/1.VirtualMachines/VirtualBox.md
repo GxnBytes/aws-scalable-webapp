@@ -1,22 +1,29 @@
-# 🧰 Installing VirtualBox on Mac
+🧰 Installing VirtualBox on Mac
 
-This guide shows you how to install VirtualBox on Mac, with an optional step for adding the VirtualBox Extension Pack.
+This guide will help you install VirtualBox on a Mac. It also includes an optional step to install the VirtualBox Extension Pack, which adds support for USB devices, RDP, and more.
 
-## Installation Process
+✅ Step 1: Download VirtualBox
 
-```bash
-sudo apt update
-sudo apt install -y virtualbox
-```
+Go to the official VirtualBox download page
+.
 
-(Optional) Add Extension Pack for USB, RDP, etc.
-Download the Extension Pack from the official VirtualBox site, then install it with:
+Under VirtualBox platform packages, click on "OS X hosts" to download the macOS version.
 
-```bash
-sudo VBoxManage extpack install --replace <path-to-extension-pack>
-```
+Open the downloaded .dmg file and follow the installer instructions.
 
-VirtualBox is now ready for use. I use it to run virtual machines as part of my cybersecurity homelab setup.
+✅ Step 2 (Optional): Install the Extension Pack
+
+On the same Downloads page
+, find "VirtualBox Extension Pack".
+
+Download the Extension Pack that matches your VirtualBox version.
+
+Double-click the .vbox-extpack file to open it with VirtualBox and follow the prompts to install.
+
+🎉 You're Done!
+
+VirtualBox is now installed and ready to run virtual machines on your Mac.
+I use it as part of my cybersecurity homelab setup.
 
 ---
 
@@ -183,5 +190,6 @@ Once Guest Additions are installed and integration options are enabled:
 
 - VMs can enter full-screen mode seamlessly.
 - Clipboard and drag-and-drop work both ways between host and guest.
+
 
 
