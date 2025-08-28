@@ -1,4 +1,4 @@
-🧰 Installing VirtualBox on Mac
+# 🧰 Installing VirtualBox on Mac
 
 This guide will help you install VirtualBox on a Mac. It also includes an optional step to install the VirtualBox Extension Pack, which adds support for USB devices, RDP, and more.
 
@@ -190,6 +190,7 @@ Once Guest Additions are installed and integration options are enabled:
 
 - VMs can enter full-screen mode seamlessly.
 - Clipboard and drag-and-drop work both ways between host and guest.
+
 
 
 
