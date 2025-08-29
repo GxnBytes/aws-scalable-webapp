@@ -65,10 +65,10 @@ The lab integrates Windows and Linux systems with security tools such as **Wazuh
 |-----------------------|---------------------------|---------------|---------|
 | `skynet-dc`           | Windows Server 2025       | 2 vCPU / 4GB  | 50 GB   |
 | `skynet-win-client`   | Windows 10 Enterprise LTSC| 2 vCPU / 4GB  | 80 GB   |
-| `skynet-linux-client` | Ubuntu 22.04 Desktop      | 1 vCPU / 3.5GB| 80 GB   |
+| `skynet-linux-client` | Ubuntu 4.04 Desktop      | 1 vCPU / 3.5GB| 80 GB   |
 | `skynet-sec-work`     | Security Onion            | 1 vCPU / 2GB  | 55 GB   |
-| `skynet-sec-box`      | Ubuntu 22.04 Desktop      | 2 vCPU / 4GB  | 80 GB   |
-| `skynet-corp-svr`     | Ubuntu 22.04 Server       | 1 vCPU / 2GB  | 25 GB   |
+| `skynet-sec-box`      | Ubuntu 24.04 Desktop      | 2 vCPU / 4GB  | 80 GB   |
+| `skynet-corp-svr`     | Ubuntu 24.04 Server       | 1 vCPU / 2GB  | 25 GB   |
 | `skynet-attacker`     | Kali Linux                | 4 vCPU / 2GB  | 80 GB   |
 
 ---
