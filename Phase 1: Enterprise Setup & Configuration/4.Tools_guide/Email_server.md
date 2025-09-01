@@ -2,7 +2,6 @@
 
 ## Prerequisites
 
-- VirtualBox or VMware Workstation Pro installed.
 - `[skynet-corp-svr]` is configured.
   - Docker is installed.
 - Windows Server 2025 with Active Directory Domain Services (ADDS) enabled.
