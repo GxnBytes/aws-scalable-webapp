@@ -35,7 +35,7 @@ The lab integrates Windows and Linux systems with security tools such as **Wazuh
 
 ## 🖥️ Operating Systems
 - **Windows Server 2025** – Domain Controller providing DNS, DHCP, and SSO.  
-- **Windows 10 Enterprise LTSC** – Simulated corporate endpoint.  
+- **Windows 11 Enterprise** – Simulated corporate endpoint.  
 - **Ubuntu 24.04 Desktop** – Linux workstation for end-user simulation.  
 - **Security Onion** – IDS/IPS and log monitoring platform.  
 - **Ubuntu 24.04 Server** – Hosts corporate services (mail, web, file share).  
@@ -64,7 +64,7 @@ The lab integrates Windows and Linux systems with security tools such as **Wazuh
 | VM Name               | OS                        | CPU / RAM     | Storage |
 |-----------------------|---------------------------|---------------|---------|
 | `skynet-dc`           | Windows Server 2025       | 2 vCPU / 4GB  | 50 GB   |
-| `skynet-win-client`   | Windows 10 Enterprise LTSC| 2 vCPU / 4GB  | 80 GB   |
+| `skynet-win-client`   | Windows 11 Enterprise     | 2 vCPU / 4GB  | 80 GB   |
 | `skynet-linux-client` | Ubuntu 24.04 Desktop      | 1 vCPU / 3.5GB| 80 GB   |
 | `skynet-sec-work`     | Security Onion            | 1 vCPU / 2GB  | 55 GB   |
 | `skynet-sec-box`      | Ubuntu 24.04 Desktop      | 2 vCPU / 4GB  | 80 GB   |
