@@ -15,7 +15,7 @@ By configuring IAM roles, security groups, logging pipelines, and alerts, this l
 - Building alerts for suspicious activities (failed logins, network anomalies)  
 - Applying encryption at rest and in transit  
 - Securing web applications using AWS and Azure security services  
-- Understanding compliance-focused controls for cloud workloads  
+- Understanding compliance focused controls for cloud workloads  
 
 ---
 
@@ -46,10 +46,10 @@ By configuring IAM roles, security groups, logging pipelines, and alerts, this l
 
 ### 2. Logging & Monitoring
 - Enabled CloudTrail (AWS) and Azure Monitor (Azure) for event logging  
-- Forwarded logs to centralized monitoring  
+- Forwarded logs to centralised monitoring  
 - Configured alerts for:  
   - Multiple failed login attempts  
-  - Unauthorized access to sensitive resources  
+  - Unauthorised access to sensitive resources  
   - Suspicious network traffic patterns  
 
 ### 3. Data Protection & Compliance
