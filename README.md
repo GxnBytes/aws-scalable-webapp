@@ -1,63 +1,45 @@
-# Cloud Security Lab (AWS)  
-![Status](https://img.shields.io/badge/status-In%20Development-yellow)
+# Scalable Web Application on AWS with CI/CD  
+![Status](https://img.shields.io/badge/status-Completed-brightgreen)
 
-## Project Overview  
-This project focuses on deploying and securing a cloud-native workload in **AWS**. The goal is to build a secure web application environment by applying best practices in **identity and access management (IAM)**, **network security**, **logging**, **monitoring**, and **data protection**.  
-
-By configuring IAM roles, security groups, logging pipelines, and alerts, this lab demonstrates how to design a resilient and compliant cloud environment while ensuring visibility into potential threats.  
-
----
-
-## Skills Developed
-- Designing and implementing IAM policies and roles  
-- Configuring AWS-native logging and monitoring tools  
-- Building alerts for suspicious activities (failed logins, network anomalies)  
-- Applying encryption at rest and in transit  
-- Securing web applications using AWS security services  
-- Understanding compliance-focused controls for cloud workloads  
+## 🚀 Project Overview  
+This project demonstrates deploying a **scalable web application** on **AWS** using containers, Infrastructure as Code (IaC), and CI/CD pipelines.  
+It highlights cloud engineering and DevOps practices such as automation, load balancing, monitoring, and auto scaling.  
 
 ---
 
-## AWS Tools & Services Used
-- **IAM** – User and role management  
-- **CloudTrail** – API activity logging  
-- **CloudWatch** – Log monitoring, metrics, and alerts  
-- **Security Groups** – Ingress/egress filtering  
-- **S3 (Encrypted)** – Secure storage for logs and artifacts  
-- **KMS** – Key management for encryption  
+## 🛠 Skills Demonstrated  
+- Deploying containerized apps with **ECS (Fargate)** or **EKS**  
+- Infrastructure as Code with **Terraform / CloudFormation**  
+- CI/CD pipelines using **GitHub Actions + AWS CodePipeline**  
+- Application Load Balancing + **Auto Scaling Groups**  
+- Monitoring with **CloudWatch dashboards & alarms**  
 
 ---
 
-## Lab Steps  
-
-### 1. Environment Setup
-- Deployed a secure web application on **AWS EC2**  
-- Configured IAM roles and enforced least-privilege policies  
-- Applied **Security Groups** for controlled inbound/outbound traffic  
-
-### 2. Logging & Monitoring
-- Enabled **CloudTrail** for event logging  
-- Forwarded logs to **CloudWatch** for centralized monitoring  
-- Configured alerts for:  
-  - Multiple failed login attempts  
-  - Unauthorized access to sensitive resources  
-  - Suspicious network traffic patterns  
-
-### 3. Data Protection & Compliance
-- Enforced encryption at rest and in transit using **KMS**  
-- Verified compliance against **CIS Benchmarks** and AWS best practices  
-- Applied security posture recommendations from **AWS Trusted Advisor**  
+## ☁️ AWS Services Used  
+- **ECS (Fargate) / EKS** – Container orchestration  
+- **ALB** – Application load balancing  
+- **Auto Scaling Groups** – Scale based on demand  
+- **CodePipeline + GitHub Actions** – CI/CD integration  
+- **CloudFormation / Terraform** – Infrastructure as Code  
+- **CloudWatch** – Monitoring & alarms  
+- **ECR + S3** – Container image + artifact storage  
 
 ---
 
-## Challenges  
-- Balancing granular IAM policies with operational usability  
-- Fine-tuning Security Groups to allow functionality without overexposing resources  
+## 📌 Implementation Steps  
+1. **Infrastructure Setup** – VPC, subnets, security groups with IaC  
+2. **App Deployment** – Containerized app deployed to ECS/EKS with ALB  
+3. **CI/CD Pipeline** – Automated build & deployment with GitHub Actions + CodePipeline  
+4. **Monitoring & Scaling** – CloudWatch metrics, alarms, and Auto Scaling policies  
 
 ---
 
-## Learning Outcomes  
-- Gained practical experience in **AWS cloud security architecture**  
-- Applied **defense-in-depth** principles in a single-cloud environment  
-- Strengthened troubleshooting skills in log forwarding and alert configuration  
+## ⚡ Key Takeaways  
+- Built a **production-ready architecture** for a scalable web app  
+- Gained hands-on experience in **AWS, IaC, CI/CD, and monitoring**  
+- Demonstrated **automation + DevOps best practices**  
+
+---
+g forwarding and alert configuration  
 - Learned to implement proactive monitoring and response in AWS  
