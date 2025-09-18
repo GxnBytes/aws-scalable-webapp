@@ -1,5 +1,5 @@
 # Scalable Web Application on AWS with CI/CD  
-![Status](https://img.shields.io/badge/status-Completed-brightgreen)
+![Status](https://img.shields.io/badge/status-In%20Progress-yellow)
 
 ## 🚀 Project Overview  
 This project demonstrates deploying a **scalable web application** on **AWS** using containers, Infrastructure as Code (IaC), and CI/CD pipelines.  
@@ -36,10 +36,6 @@ It highlights cloud engineering and DevOps practices such as automation, load ba
 ---
 
 ## ⚡ Key Takeaways  
-- Built a **production-ready architecture** for a scalable web app  
-- Gained hands-on experience in **AWS, IaC, CI/CD, and monitoring**  
-- Demonstrated **automation + DevOps best practices**  
-
----
-g forwarding and alert configuration  
-- Learned to implement proactive monitoring and response in AWS  
+- Build in progress to create a **production-ready architecture** for a scalable web app  
+- Hands-on experience in **AWS, IaC, CI/CD, and monitoring**  
+- Demonstrates **automation + DevOps best practices**
