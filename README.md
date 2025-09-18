@@ -1,5 +1,5 @@
 # Scalable Web Application on AWS with CI/CD  
-![Status](https://img.shields.io/badge/status-In%20Progress-yellow)
+![Status](https://img.shields.io/badge/status-In%20Development-yellow)
 
 ## 🚀 Project Overview  
 This project demonstrates deploying a **scalable web application** on **AWS** using containers, Infrastructure as Code (IaC), and CI/CD pipelines.  
