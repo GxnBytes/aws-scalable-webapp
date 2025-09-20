@@ -1,41 +1,44 @@
-# Scalable Web Application on AWS with CI/CD  
+# React App Deployment on AWS with Elastic Beanstalk & Terraform
+
 ![Status](https://img.shields.io/badge/status-In%20Development-yellow)
 
-## 🚀 Project Overview  
-This project demonstrates deploying a **scalable web application** on **AWS** using containers, Infrastructure as Code (IaC), and CI/CD pipelines.  
-It highlights cloud engineering and DevOps practices such as automation, load balancing, monitoring, and auto scaling.  
+## 🚀 Project Overview
+
+This project demonstrates how to deploy a **React application** to **AWS Elastic Beanstalk**, using **Terraform** for automation.
+
+Elastic Beanstalk simplifies cloud deployment by handling **provisioning, scaling, and load balancing**, so you can focus on building your app—not managing infrastructure manually.
+
+All infrastructure is created using **Infrastructure as Code (IaC)**, not through the AWS Console.
 
 ---
 
-## 🛠 Skills Demonstrated  
-- Deploying containerized apps with **ECS (Fargate)** or **EKS**  
-- Infrastructure as Code with **Terraform / CloudFormation**  
-- CI/CD pipelines using **GitHub Actions + AWS CodePipeline**  
-- Application Load Balancing + **Auto Scaling Groups**  
-- Monitoring with **CloudWatch dashboards & alarms**  
+## 🎯 Objectives
+
+- Efficiently deploy a React app on AWS
+- Learn how to use Elastic Beanstalk for managing app environments
+- Automate infrastructure setup using **Terraform**
+- Practice IaC and version control using GitHub
 
 ---
 
-## ☁️ AWS Services Used  
-- **ECS (Fargate) / EKS** – Container orchestration  
-- **ALB** – Application load balancing  
-- **Auto Scaling Groups** – Scale based on demand  
-- **CodePipeline + GitHub Actions** – CI/CD integration  
-- **CloudFormation / Terraform** – Infrastructure as Code  
-- **CloudWatch** – Monitoring & alarms  
-- **ECR + S3** – Container image + artifact storage  
+## 🛠 Tools & Technologies
+
+- **React** – Frontend application
+- **AWS Elastic Beanstalk** – Managed deployment, scaling, and load balancing
+- **Terraform** – Infrastructure as Code
+- **GitHub** – Version control and source hosting
 
 ---
 
-## 📌 Implementation Steps  
-1. **Infrastructure Setup** – VPC, subnets, security groups with IaC  
-2. **App Deployment** – Containerized app deployed to ECS/EKS with ALB  
-3. **CI/CD Pipeline** – Automated build & deployment with GitHub Actions + CodePipeline  
-4. **Monitoring & Scaling** – CloudWatch metrics, alarms, and Auto Scaling policies  
+## 🧱 Project Structure
 
----
-
-## ⚡ Key Takeaways  
-- Build in progress to create a **production-ready architecture** for a scalable web app  
-- Hands-on experience in **AWS, IaC, CI/CD, and monitoring**  
-- Demonstrates **automation + DevOps best practices**
+```bash
+.
+├── terraform/               # All Terraform configuration files
+│   ├── main.tf
+│   ├── variables.tf
+│   └── outputs.tf
+├── react-app/               # React frontend application
+│   └── ...
+├── README.md
+└── .gitignore
