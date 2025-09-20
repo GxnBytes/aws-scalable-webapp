@@ -6,7 +6,7 @@
 
 This project demonstrates how to deploy a **React application** to **AWS Elastic Beanstalk**, using **Terraform** for automation.
 
-Elastic Beanstalk simplifies cloud deployment by handling **provisioning, scaling, and load balancing**, so you can focus on building your app—not managing infrastructure manually.
+Elastic Beanstalk simplifies cloud deployment by handling **provisioning, scaling, and load balancing**, so you can focus on building your app not managing infrastructure manually.
 
 All infrastructure is created using **Infrastructure as Code (IaC)**, not through the AWS Console.
 
