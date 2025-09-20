@@ -42,3 +42,17 @@ All infrastructure is created using **Infrastructure as Code (IaC)**, not throug
 │   └── ...
 ├── README.md
 └── .gitignore
+```
+
+## ✅ Key Takeaways
+
+- Hands-on experience deploying frontend apps to AWS
+- Practiced real-world Infrastructure as Code workflows
+- Gained exposure to auto scaling, load balancing, and cost management
+- Reinforced use of Terraform for production-like environments
+
+##💡 Notes
+
+- Always version control your code and infrastructure using GitHub.
+- Elastic Beanstalk makes it easy to manage deployments, but learning Terraform gives you total control and automation.
+- Don’t forget to 'terraform destroy' resources to avoid unnecessary charges.
