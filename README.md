@@ -30,20 +30,6 @@ All infrastructure is created using **Infrastructure as Code (IaC)**, not throug
 
 ---
 
-## 🧱 Project Structure
-
-```bash
-.
-├── terraform/               # All Terraform configuration files
-│   ├── main.tf
-│   ├── variables.tf
-│   └── outputs.tf
-├── react-app/               # React frontend application
-│   └── ...
-├── README.md
-└── .gitignore
-```
-
 ## ✅ Outcome
 
 - Hands-on experience deploying frontend apps to AWS
