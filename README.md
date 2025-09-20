@@ -51,7 +51,7 @@ All infrastructure is created using **Infrastructure as Code (IaC)**, not throug
 - Gained exposure to auto scaling, load balancing, and cost management
 - Reinforced use of Terraform for production-like environments
 
-##💡 Notes
+## 💡 Notes
 
 - Always version control your code and infrastructure using GitHub.
 - Elastic Beanstalk makes it easy to manage deployments, but learning Terraform gives you total control and automation.
