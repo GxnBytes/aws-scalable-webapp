@@ -44,7 +44,7 @@ All infrastructure is created using **Infrastructure as Code (IaC)**, not throug
 └── .gitignore
 ```
 
-## ✅ Key Takeaways
+## ✅ Outcome
 
 - Hands-on experience deploying frontend apps to AWS
 - Practiced real-world Infrastructure as Code workflows
