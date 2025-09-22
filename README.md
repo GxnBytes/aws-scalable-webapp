@@ -21,7 +21,11 @@ All infrastructure is created using **Infrastructure as Code (IaC)**, not throug
 
 ---
 
-## 🛠 Tools & Technologies
+## ✨ Features
+
+---
+
+## 👨🏽‍💻 Tech Stack
 
 - **React** – Frontend application
 - **AWS Elastic Beanstalk** – Managed deployment, scaling, and load balancing
@@ -30,11 +34,37 @@ All infrastructure is created using **Infrastructure as Code (IaC)**, not throug
 
 ---
 
-## ✅ Outcome
+## 📦 Getting Started
+
+### ✅ Prerequisites
+
+---
+
+### 🛠️ Installation Notes
+
+---
+
+### 📖 Usage
+
+---
+
+## ✅ Outcome/ Key Takeaways
 
 - Hands-on experience deploying frontend apps to AWS
 - Practice real-world Infrastructure as Code workflows
 - Gain exposure to auto scaling, load balancing, and cost management
 - Reinforce use of Terraform for production-like environments
-  
+
 ---
+
+## 🔗 Resources
+
+---
+
+## 🐛 Issues
+
+---
+
+## 📜 License
+
+Authored by © Genesis Phillips
