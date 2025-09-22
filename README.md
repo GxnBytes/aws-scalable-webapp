@@ -48,13 +48,6 @@ All infrastructure is created using **Infrastructure as Code (IaC)**, not throug
 
 ---
 
-## ✅ Outcome/ Key Takeaways
-
-- Hands-on experience deploying frontend apps to AWS
-- Practice real-world Infrastructure as Code workflows
-- Gain exposure to auto scaling, load balancing, and cost management
-- Reinforce use of Terraform for production-like environments
-
 ---
 
 ## 🔗 Resources
