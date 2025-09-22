@@ -21,6 +21,12 @@ Elastic Beanstalk simplifies cloud deployment by handling **provisioning, scalin
 
 ## ✨ Features
 
+- Automated provisioning and deployment of AWS Elastic Beanstalk environments
+- Terraform scripts for repeatable and version-controlled infrastructure
+- Support for environment configuration and scalable React app deployment
+- Integration with GitHub for source control and CI/CD readiness
+- Easy rollback and updates via Elastic Beanstalk management console
+- Simplified monitoring and logging using AWS built-in tools
 ---
 
 ## 👨🏽‍💻 Tech Stack
